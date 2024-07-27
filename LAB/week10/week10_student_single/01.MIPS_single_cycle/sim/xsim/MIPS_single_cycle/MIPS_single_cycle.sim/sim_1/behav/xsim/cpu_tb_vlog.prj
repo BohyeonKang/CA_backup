@@ -1,0 +1,21 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  --include "../../../../../" \
+"../../../../../../../src/rtl/ASYNC_RAM_DP.v" \
+"../../../../../../../src/rtl/MIPS_System.v" \
+"../../../../../../../src/rtl/MIPS_cpu.v" \
+"../../../../../../../src/rtl/alu_32bit.v" \
+"../../../../../../../src/rtl/control_unit.v" \
+"../../../../../../../src/rtl/full_adder.v" \
+"../../../../../../../src/rtl/next_pc_logic.v" \
+"../../../../../../../src/rtl/reg_file_async.v" \
+"../../../../../../../src/rtl/ripple_carry_adder.v" \
+"../../../../../../../src/rtl/sign_extension.v" \
+"../../../../../../../src/rtl/write_back_address.v" \
+"../../../../../../../src/rtl/write_back_data.v" \
+"../../../../../../../testbench/cpu_tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

@@ -1,0 +1,6 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/2024_CA_LAB/LAB/week07/HW_write_back_address/src/write_back_address.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module write_back_address
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/2024_CA_LAB/LAB/week07/HW_write_back_address/testbench/tb_write_back_address.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_write_back_address
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/2024_CA_LAB/LAB/week07/HW_write_back_address/sim/xsim/HW_write_back_address/HW_write_back_address.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl

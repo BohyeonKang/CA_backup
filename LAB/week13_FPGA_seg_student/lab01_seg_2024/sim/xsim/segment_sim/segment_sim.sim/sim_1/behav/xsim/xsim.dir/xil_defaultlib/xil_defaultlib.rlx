@@ -1,0 +1,10 @@
+0.6
+2019.2
+Nov  6 2019
+21:57:16
+C:/2024_CA_LAB/LAB/week13_FPGA_seg_student/lab01_seg_2024/sim/xsim/segment_sim/segment_sim.sim/sim_1/behav/xsim/glbl.v,1573089660,verilog,,,,glbl,,,,,,,,
+C:/2024_CA_LAB/LAB/week13_FPGA_seg_student/lab01_seg_2024/src/rtl/SEG7_LUT.v,1717140325,verilog,,C:/2024_CA_LAB/LAB/week13_FPGA_seg_student/lab01_seg_2024/src/rtl/clock_divider.v,,SEG7_LUT,,,,,,,,
+C:/2024_CA_LAB/LAB/week13_FPGA_seg_student/lab01_seg_2024/src/rtl/clock_divider.v,1717221281,verilog,,C:/2024_CA_LAB/LAB/week13_FPGA_seg_student/lab01_seg_2024/src/rtl/seg7driver.v,,clock_divider,,,,,,,,
+C:/2024_CA_LAB/LAB/week13_FPGA_seg_student/lab01_seg_2024/src/rtl/seg7driver.v,1717139968,verilog,,C:/2024_CA_LAB/LAB/week13_FPGA_seg_student/lab01_seg_2024/src/rtl/segment.v,,seg7driver,,,,,,,,
+C:/2024_CA_LAB/LAB/week13_FPGA_seg_student/lab01_seg_2024/src/rtl/segment.v,1717139968,verilog,,C:/2024_CA_LAB/LAB/week13_FPGA_seg_student/lab01_seg_2024/testbench/testbench.v,,segment,,,,,,,,
+C:/2024_CA_LAB/LAB/week13_FPGA_seg_student/lab01_seg_2024/testbench/testbench.v,1717139968,verilog,,,,testbench,,,,,,,,

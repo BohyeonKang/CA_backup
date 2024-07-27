@@ -1,0 +1,98 @@
+#-----------------------------------------------------------
+# Vivado v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Sun Jun  9 13:46:41 2024
+# Process ID: 13504
+# Current directory: C:/2024_CA_LAB/LAB/Final_Project_team1/hardware/sim/xsim_cpu_tb/MIPS_System
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent3288 C:\2024_CA_LAB\LAB\Final_Project_team1\hardware\sim\xsim_cpu_tb\MIPS_System\MIPS_System.xpr
+# Log file: C:/2024_CA_LAB/LAB/Final_Project_team1/hardware/sim/xsim_cpu_tb/MIPS_System/vivado.log
+# Journal file: C:/2024_CA_LAB/LAB/Final_Project_team1/hardware/sim/xsim_cpu_tb/MIPS_System\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/2024_CA_LAB/LAB/Final_Project_team1/hardware/sim/xsim_cpu_tb/MIPS_System/MIPS_System.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2019.2/data/ip'.
+open_project: Time (s): cpu = 00:00:15 ; elapsed = 00:00:09 . Memory (MB): peak = 922.691 ; gain = 207.785
+update_compile_order -fileset sources_1
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/2024_CA_LAB/LAB/Final_Project_team1/hardware/sim/xsim_cpu_tb/MIPS_System/MIPS_System.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'cpu_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/2024_CA_LAB/LAB/Final_Project_team1/hardware/sim/xsim_cpu_tb/MIPS_System/MIPS_System.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj cpu_tb_vlog.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/2024_CA_LAB/LAB/Final_Project_team1/hardware/sim/xsim_cpu_tb/MIPS_System/MIPS_System.sim/sim_1/behav/xsim'
+"xelab -wto f0f482efb78f462f8837b7a7b95cadd2 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot cpu_tb_behav xil_defaultlib.cpu_tb xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2019.2
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2019.2/bin/unwrapped/win64.o/xelab.exe -wto f0f482efb78f462f8837b7a7b95cadd2 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot cpu_tb_behav xil_defaultlib.cpu_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/2024_CA_LAB/LAB/Final_Project_team1/hardware/sim/xsim_cpu_tb/MIPS_System/MIPS_System.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "cpu_tb_behav -key {Behavioral:sim_1:Functional:cpu_tb} -tclbatch {cpu_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2019.2
+Time resolution is 1 ps
+source cpu_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 6000ns
+WARNING: File code.hex referenced on C:/2024_CA_LAB/LAB/Final_Project_team1/hardware/src/rtl/ASYNC_RAM_DP.v at line 19 cannot be opened for reading. Please ensure that this file is available in the current working directory.
+[         1] Test                       R-Type ADD passed!
+[         2] Test                       R-Type SUB passed!
+[         3] Test                       R-Type AND passed!
+[         4] Test                        R-Type OR passed!
+[         5] Test                       R-Type SLT passed!
+[         6] Test                     I-Type ADD 1 passed!
+[         7] Test                     I-Type ADD 2 passed!
+[         8] Test                     I-Type ADD 3 passed!
+[         9] Test                      I-Type LW 1 passed!
+[        10] Test                      I-Type LW 2 passed!
+[        11] Test                      I-Type SW 1 passed!
+[        12] Test                      I-Type SW 2 passed!
+[        13] Test               I-type BEQ Taken 1 passed!
+[        14] Test               I-type BEQ Taken 2 passed!
+[        15] Test             I-type BEQ Not Taken passed!
+[        16] Test                         Hazard 1 passed!
+[        17] Test                         Hazard 2 passed!
+[        18] Test                         Hazard 3 passed!
+[        19] Test                         Hazard 4 passed!
+[        20] Test                         Hazard 5 passed!
+[        21] Test                         Hazard 6 passed!
+[        22] Test                         Hazard 7 passed!
+[        23] Test                         Hazard 8 passed!
+[        24] Test                         Hazard 9 passed!
+[        25] Test                      Hazard 10 1 passed!
+[        26] Test                      Hazard 10 2 passed!
+All tests passed!
+$finish called at time : 5070 ns : File "C:/2024_CA_LAB/LAB/Final_Project_team1/hardware/testbench/cpu_tb.v" Line 522
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'cpu_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 6000ns
+launch_simulation: Time (s): cpu = 00:00:11 ; elapsed = 00:00:09 . Memory (MB): peak = 1010.652 ; gain = 70.195
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+close_sim: Time (s): cpu = 00:00:02 ; elapsed = 00:00:06 . Memory (MB): peak = 1024.852 ; gain = 0.000
+exit
+INFO: [Common 17-206] Exiting Vivado at Sun Jun  9 13:47:40 2024...

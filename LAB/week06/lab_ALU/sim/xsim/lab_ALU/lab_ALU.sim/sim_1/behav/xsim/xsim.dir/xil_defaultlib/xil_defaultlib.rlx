@@ -1,0 +1,9 @@
+0.6
+2019.2
+Nov  6 2019
+21:57:16
+C:/2024_CA_LAB/LAB/week06/lab_ALU/sim/xsim/lab_ALU/lab_ALU.sim/sim_1/behav/xsim/glbl.v,1573089660,verilog,,,,glbl,,,,,,,,
+C:/2024_CA_LAB/LAB/week06/lab_ALU/src/alu_32bit.v,1712995718,verilog,,C:/2024_CA_LAB/LAB/week06/lab_ALU/src/full_adder.v,,alu_32bit,,,,,,,,
+C:/2024_CA_LAB/LAB/week06/lab_ALU/src/full_adder.v,1712899741,verilog,,C:/2024_CA_LAB/LAB/week06/lab_ALU/src/ripple_carry_adder_32bit.v,,full_adder,,,,,,,,
+C:/2024_CA_LAB/LAB/week06/lab_ALU/src/ripple_carry_adder_32bit.v,1712909367,verilog,,C:/2024_CA_LAB/LAB/week06/lab_ALU/testbench/tb_alu_32bit.v,,ripple_carry_adder_32bit,,,,,,,,
+C:/2024_CA_LAB/LAB/week06/lab_ALU/testbench/tb_alu_32bit.v,1713002245,verilog,,,,tb_alu_32bit,,,,,,,,

@@ -1,0 +1,23 @@
+#-----------------------------------------------------------
+# Vivado v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Tue Apr 30 16:34:37 2024
+# Process ID: 1184
+# Current directory: C:/2024_CA_LAB/LAB/week07/HW_write_back_address/sim/xsim/HW_write_back_address
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent20348 C:\2024_CA_LAB\LAB\week07\HW_write_back_address\sim\xsim\HW_write_back_address\HW_write_back_address.xpr
+# Log file: C:/2024_CA_LAB/LAB/week07/HW_write_back_address/sim/xsim/HW_write_back_address/vivado.log
+# Journal file: C:/2024_CA_LAB/LAB/week07/HW_write_back_address/sim/xsim/HW_write_back_address\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/2024_CA_LAB/LAB/week07/HW_write_back_address/sim/xsim/HW_write_back_address/HW_write_back_address.xpr
+update_compile_order -fileset sources_1
+export_ip_user_files -of_objects  [get_files C:/2024_CA_LAB/LAB/week07/lab_WriteReg_address/src/write_back_address.v] -no_script -reset -force -quiet
+remove_files  C:/2024_CA_LAB/LAB/week07/lab_WriteReg_address/src/write_back_address.v
+export_ip_user_files -of_objects  [get_files C:/2024_CA_LAB/LAB/week07/lab_WriteReg_address/testbench/tb_write_back_address.v] -no_script -reset -force -quiet
+remove_files  C:/2024_CA_LAB/LAB/week07/lab_WriteReg_address/testbench/tb_write_back_address.v
+add_files -norecurse {C:/2024_CA_LAB/LAB/week07/HW_write_back_address/testbench/tb_write_back_address.v C:/2024_CA_LAB/LAB/week07/HW_write_back_address/src/write_back_address.v}
+update_compile_order -fileset sources_1
+launch_simulation
+source tb_write_back_address.tcl
+close_sim

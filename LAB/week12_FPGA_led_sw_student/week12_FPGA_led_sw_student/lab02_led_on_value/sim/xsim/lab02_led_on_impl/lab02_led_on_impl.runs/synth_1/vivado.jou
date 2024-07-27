@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Fri May 24 17:18:41 2024
+# Process ID: 16552
+# Current directory: C:/2024_CA_LAB/LAB/week12_FPGA_led_sw_student/week12_FPGA_led_sw_student/lab02_led_on_value/sim/xsim/lab02_led_on_impl/lab02_led_on_impl.runs/synth_1
+# Command line: vivado.exe -log led_on_value.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source led_on_value.tcl
+# Log file: C:/2024_CA_LAB/LAB/week12_FPGA_led_sw_student/week12_FPGA_led_sw_student/lab02_led_on_value/sim/xsim/lab02_led_on_impl/lab02_led_on_impl.runs/synth_1/led_on_value.vds
+# Journal file: C:/2024_CA_LAB/LAB/week12_FPGA_led_sw_student/week12_FPGA_led_sw_student/lab02_led_on_value/sim/xsim/lab02_led_on_impl/lab02_led_on_impl.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source led_on_value.tcl -notrace

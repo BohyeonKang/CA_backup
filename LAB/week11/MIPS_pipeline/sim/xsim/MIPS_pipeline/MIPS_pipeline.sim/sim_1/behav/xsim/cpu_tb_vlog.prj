@@ -1,0 +1,25 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  --include "../../../../../" \
+"../../../../../../../src/ASYNC_RAM_DP.v" \
+"../../../../../../../src/EXE_MEM_pipe_reg.v" \
+"../../../../../../../src/ID_EXE_pipe_reg.v" \
+"../../../../../../../src/IF_ID_pipe_reg.v" \
+"../../../../../../../src/MEM_WB_pipe_reg.v" \
+"../../../../../../../src/MIPS_System.v" \
+"../../../../../../../src/MIPS_cpu.v" \
+"../../../../../../../src/alu_32bit.v" \
+"../../../../../../../src/control_unit.v" \
+"../../../../../../../src/full_adder.v" \
+"../../../../../../../src/next_pc_logic_pipe.v" \
+"../../../../../../../src/reg_file_async.v" \
+"../../../../../../../src/ripple_carry_adder.v" \
+"../../../../../../../src/sign_extension.v" \
+"../../../../../../../src/write_back_address.v" \
+"../../../../../../../src/write_back_data.v" \
+"../../../../../../../testbench/cpu_tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

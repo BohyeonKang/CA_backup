@@ -1,0 +1,23 @@
+//-----------------------------------------------------
+//Instructions supported by the MIPS processor
+
+R-type : add, sub, and, or, slt 
+I-type : addi, lw, sw, beq
+
+//-----------------------------------------------------
+//Example ISA
+
+0x0001_0000:  02954020      add   x8,  x20, x21   	
+0x0001_0004:  22300005      addi  x16, x17, 5     	   
+0x0001_0008:  8E93FFE8       lw    x19, -24 (x20)  	
+0x0001_000C:  ac640008      sw    x4,  x3  8		     
+
+//-----------------------------------------------------
+//Description
+이 부분에 작성한 ISA의 설명을 적으세요.
+
+  - 명령어가 길어질 경우 주소를 추가하세요. 
+  - register number 대신 register name 사용 가능 
+    - register name: PPT MIPS register set에 따를 것 ($ 표시 없으면 점수 부여 X)
+    - EX) add x8, x20, x21 -> add $t0, $s4, $s5  
+

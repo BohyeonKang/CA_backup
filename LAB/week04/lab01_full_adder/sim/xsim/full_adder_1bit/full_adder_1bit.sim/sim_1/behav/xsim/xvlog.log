@@ -1,0 +1,6 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/2024_CA_LAB/LAB/week04/lab01_full_adder/src/full_adder_1bit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module full_adder_1bit_case
+INFO: [VRFC 10-311] analyzing module full_adder_1bit_twohalfadder
+INFO: [VRFC 10-311] analyzing module full_adder_1bit_optimized
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/2024_CA_LAB/LAB/week04/lab01_full_adder/testbench/tb_full_adder_1bit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_full_adder_1bit

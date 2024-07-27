@@ -1,0 +1,253 @@
+#-----------------------------------------------------------
+# Vivado v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Thu Jun 13 14:49:01 2024
+# Process ID: 24636
+# Current directory: C:/2024_CA_LAB/LAB/Final_Project_team1/hardware/sim/xsim_cpu_tb/MIPS_System
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent23396 C:\2024_CA_LAB\LAB\Final_Project_team1\hardware\sim\xsim_cpu_tb\MIPS_System\MIPS_System.xpr
+# Log file: C:/2024_CA_LAB/LAB/Final_Project_team1/hardware/sim/xsim_cpu_tb/MIPS_System/vivado.log
+# Journal file: C:/2024_CA_LAB/LAB/Final_Project_team1/hardware/sim/xsim_cpu_tb/MIPS_System\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/2024_CA_LAB/LAB/Final_Project_team1/hardware/sim/xsim_cpu_tb/MIPS_System/MIPS_System.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2019.2/data/ip'.
+open_project: Time (s): cpu = 00:00:14 ; elapsed = 00:00:09 . Memory (MB): peak = 938.121 ; gain = 232.617
+update_compile_order -fileset sources_1
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/2024_CA_LAB/LAB/Final_Project_team1/hardware/sim/xsim_cpu_tb/MIPS_System/MIPS_System.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'cpu_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/2024_CA_LAB/LAB/Final_Project_team1/hardware/sim/xsim_cpu_tb/MIPS_System/MIPS_System.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj cpu_tb_vlog.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '3' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/2024_CA_LAB/LAB/Final_Project_team1/hardware/sim/xsim_cpu_tb/MIPS_System/MIPS_System.sim/sim_1/behav/xsim'
+"xelab -wto f0f482efb78f462f8837b7a7b95cadd2 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot cpu_tb_behav xil_defaultlib.cpu_tb xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2019.2
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2019.2/bin/unwrapped/win64.o/xelab.exe -wto f0f482efb78f462f8837b7a7b95cadd2 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot cpu_tb_behav xil_defaultlib.cpu_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '4' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/2024_CA_LAB/LAB/Final_Project_team1/hardware/sim/xsim_cpu_tb/MIPS_System/MIPS_System.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "cpu_tb_behav -key {Behavioral:sim_1:Functional:cpu_tb} -tclbatch {cpu_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2019.2
+Time resolution is 1 ps
+source cpu_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 6000ns
+WARNING: File code.hex referenced on C:/2024_CA_LAB/LAB/Final_Project_team1/hardware/src/rtl/ASYNC_RAM_DP.v at line 19 cannot be opened for reading. Please ensure that this file is available in the current working directory.
+[         1] Test                       R-Type ADD passed!
+[         2] Test                       R-Type SUB passed!
+[         3] Test                       R-Type AND passed!
+[         4] Test                        R-Type OR passed!
+[         5] Test                       R-Type SLT passed!
+[         6] Test                     I-Type ADD 1 passed!
+[         7] Test                     I-Type ADD 2 passed!
+[         8] Test                     I-Type ADD 3 passed!
+[         9] Test                      I-Type LW 1 passed!
+[        10] Test                      I-Type LW 2 passed!
+[        11] Test                      I-Type SW 1 passed!
+[        12] Test                      I-Type SW 2 passed!
+[        13] Test               I-type BEQ Taken 1 passed!
+[        14] Test               I-type BEQ Taken 2 passed!
+[        15] Test             I-type BEQ Not Taken passed!
+[        16] Test                         Hazard 1 passed!
+[        17] Test                         Hazard 2 passed!
+[        18] Test                         Hazard 3 passed!
+[        19] Test                         Hazard 4 passed!
+[        20] Test                         Hazard 5 passed!
+[        21] Test                         Hazard 6 passed!
+[        22] Test                         Hazard 7 passed!
+[        23] Test                         Hazard 8 passed!
+[        24] Test                         Hazard 9 passed!
+[        25] Test                      Hazard 10 1 passed!
+[        26] Test                      Hazard 10 2 passed!
+All tests passed!
+$finish called at time : 5070 ns : File "C:/2024_CA_LAB/LAB/Final_Project_team1/hardware/testbench/cpu_tb.v" Line 522
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'cpu_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 6000ns
+launch_simulation: Time (s): cpu = 00:00:13 ; elapsed = 00:00:13 . Memory (MB): peak = 960.828 ; gain = 11.309
+relaunch_sim
+Command: launch_simulation -simset sim_1 -mode behavioral
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/2024_CA_LAB/LAB/Final_Project_team1/hardware/sim/xsim_cpu_tb/MIPS_System/MIPS_System.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'cpu_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/2024_CA_LAB/LAB/Final_Project_team1/hardware/sim/xsim_cpu_tb/MIPS_System/MIPS_System.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj cpu_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/2024_CA_LAB/LAB/Final_Project_team1/hardware/src/rtl/ASYNC_RAM_DP.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ASYNC_RAM_DP
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/2024_CA_LAB/LAB/Final_Project_team1/hardware/src/rtl/EXE_MEM_pipe_reg.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module EXE_MEM_pipe_reg
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/2024_CA_LAB/LAB/Final_Project_team1/hardware/src/rtl/GPIO.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module GPIO
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/2024_CA_LAB/LAB/Final_Project_team1/hardware/src/rtl/ID_EXE_pipe_reg.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ID_EXE_pipe_reg
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/2024_CA_LAB/LAB/Final_Project_team1/hardware/src/rtl/IF_ID_pipe_reg.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module IF_ID_pipe_reg
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/2024_CA_LAB/LAB/Final_Project_team1/hardware/src/rtl/MEM_WB_pipe_reg.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MEM_WB_pipe_reg
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/2024_CA_LAB/LAB/Final_Project_team1/hardware/src/rtl/MIPS_System.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MIPS_System
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/2024_CA_LAB/LAB/Final_Project_team1/hardware/src/rtl/MIPS_cpu.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MIPS_cpu
+INFO: [VRFC 10-2458] undeclared symbol PCSrcD, assumed default net type wire [C:/2024_CA_LAB/LAB/Final_Project_team1/hardware/src/rtl/MIPS_cpu.v:89]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/2024_CA_LAB/LAB/Final_Project_team1/hardware/src/rtl/SEG7_LUT.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SEG7_LUT
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/2024_CA_LAB/LAB/Final_Project_team1/hardware/src/rtl/alu_32bit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module alu_32bit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/2024_CA_LAB/LAB/Final_Project_team1/hardware/src/rtl/clock_divider.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clock_divider
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/2024_CA_LAB/LAB/Final_Project_team1/hardware/src/rtl/control_unit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module control_unit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/2024_CA_LAB/LAB/Final_Project_team1/hardware/src/rtl/full_adder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module full_adder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/2024_CA_LAB/LAB/Final_Project_team1/hardware/src/rtl/hazard_unit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module hazard_unit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/2024_CA_LAB/LAB/Final_Project_team1/hardware/src/rtl/next_pc_logic_pipe.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module next_pc_logic_pipe
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/2024_CA_LAB/LAB/Final_Project_team1/hardware/src/rtl/reg_file_async.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module reg_file_async
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/2024_CA_LAB/LAB/Final_Project_team1/hardware/src/rtl/ripple_carry_adder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ripple_carry_adder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/2024_CA_LAB/LAB/Final_Project_team1/hardware/src/rtl/seg7driver.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module seg7driver
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/2024_CA_LAB/LAB/Final_Project_team1/hardware/src/rtl/sign_extension.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sign_extension
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/2024_CA_LAB/LAB/Final_Project_team1/hardware/src/rtl/write_back_address.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module write_back_address
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/2024_CA_LAB/LAB/Final_Project_team1/hardware/src/rtl/write_back_data.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module write_back_data
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/2024_CA_LAB/LAB/Final_Project_team1/hardware/testbench/cpu_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module cpu_tb
+INFO: [USF-XSim-69] 'compile' step finished in '3' seconds
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:05 . Memory (MB): peak = 1156.469 ; gain = 0.000
+Command: launch_simulation -simset sim_1 -mode behavioral
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/2024_CA_LAB/LAB/Final_Project_team1/hardware/sim/xsim_cpu_tb/MIPS_System/MIPS_System.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/2024_CA_LAB/LAB/Final_Project_team1/hardware/sim/xsim_cpu_tb/MIPS_System/MIPS_System.sim/sim_1/behav/xsim'
+"xelab -wto f0f482efb78f462f8837b7a7b95cadd2 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot cpu_tb_behav xil_defaultlib.cpu_tb xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2019.2
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2019.2/bin/unwrapped/win64.o/xelab.exe -wto f0f482efb78f462f8837b7a7b95cadd2 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot cpu_tb_behav xil_defaultlib.cpu_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "C:/2024_CA_LAB/LAB/Final_Project_team1/hardware/src/rtl/MIPS_System.v" Line 10. Module MIPS_System doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/2024_CA_LAB/LAB/Final_Project_team1/hardware/src/rtl/MIPS_cpu.v" Line 1. Module MIPS_cpu doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/2024_CA_LAB/LAB/Final_Project_team1/hardware/src/rtl/IF_ID_pipe_reg.v" Line 1. Module IF_ID_pipe_reg doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/2024_CA_LAB/LAB/Final_Project_team1/hardware/src/rtl/ID_EXE_pipe_reg.v" Line 1. Module ID_EXE_pipe_reg doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/2024_CA_LAB/LAB/Final_Project_team1/hardware/src/rtl/EXE_MEM_pipe_reg.v" Line 1. Module EXE_MEM_pipe_reg doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/2024_CA_LAB/LAB/Final_Project_team1/hardware/src/rtl/MEM_WB_pipe_reg.v" Line 1. Module MEM_WB_pipe_reg doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/2024_CA_LAB/LAB/Final_Project_team1/hardware/src/rtl/ASYNC_RAM_DP.v" Line 1. Module ASYNC_RAM_DP(MIF_HEX="code.hex") doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/2024_CA_LAB/LAB/Final_Project_team1/hardware/src/rtl/GPIO.v" Line 17. Module GPIO doesn't have a timescale but at least one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.IF_ID_pipe_reg
+Compiling module xil_defaultlib.ID_EXE_pipe_reg
+Compiling module xil_defaultlib.EXE_MEM_pipe_reg
+Compiling module xil_defaultlib.MEM_WB_pipe_reg
+Compiling module xil_defaultlib.control_unit
+Compiling module xil_defaultlib.full_adder
+Compiling module xil_defaultlib.ripple_carry_adder_default
+Compiling module xil_defaultlib.next_pc_logic_pipe
+Compiling module xil_defaultlib.reg_file_async
+Compiling module xil_defaultlib.sign_extension
+Compiling module xil_defaultlib.alu_32bit
+Compiling module xil_defaultlib.write_back_data
+Compiling module xil_defaultlib.write_back_address
+Compiling module xil_defaultlib.hazard_unit
+Compiling module xil_defaultlib.MIPS_cpu
+Compiling module xil_defaultlib.ASYNC_RAM_DP(MIF_HEX="code.hex")
+Compiling module xil_defaultlib.SEG7_LUT
+Compiling module xil_defaultlib.clock_divider
+Compiling module xil_defaultlib.seg7driver
+Compiling module xil_defaultlib.GPIO
+Compiling module xil_defaultlib.MIPS_System
+Compiling module xil_defaultlib.cpu_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot cpu_tb_behav
+
+****** Webtalk v2019.2 (64-bit)
+  **** SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+  **** IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+    ** Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+
+source C:/2024_CA_LAB/LAB/Final_Project_team1/hardware/sim/xsim_cpu_tb/MIPS_System/MIPS_System.sim/sim_1/behav/xsim/xsim.dir/cpu_tb_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Thu Jun 13 15:36:08 2024...
+INFO: [USF-XSim-69] 'elaborate' step finished in '5' seconds
+Vivado Simulator 2019.2
+Time resolution is 1 ps
+WARNING: File code.hex referenced on C:/2024_CA_LAB/LAB/Final_Project_team1/hardware/src/rtl/ASYNC_RAM_DP.v at line 19 cannot be opened for reading. Please ensure that this file is available in the current working directory.
+[         1] Test                       R-Type ADD passed!
+[         2] Test                       R-Type SUB passed!
+[         3] Test                       R-Type AND passed!
+[         4] Test                        R-Type OR passed!
+[         5] Test                       R-Type SLT passed!
+[         6] Test                     I-Type ADD 1 passed!
+[         7] Test                     I-Type ADD 2 passed!
+[         8] Test                     I-Type ADD 3 passed!
+[         9] Test                      I-Type LW 1 passed!
+[        10] Test                      I-Type LW 2 passed!
+[        11] Test                      I-Type SW 1 passed!
+[        12] Test                      I-Type SW 2 passed!
+[        13] Test               I-type BEQ Taken 1 passed!
+[        14] Test               I-type BEQ Taken 2 passed!
+[        15] Test             I-type BEQ Not Taken passed!
+[        16] Test                         Hazard 1 passed!
+[        17] Test                         Hazard 2 passed!
+[        18] Test                         Hazard 3 passed!
+[        19] Test                         Hazard 4 passed!
+[        20] Test                         Hazard 5 passed!
+[        21] Test                         Hazard 6 passed!
+[        22] Test                         Hazard 7 passed!
+[        23] Test                         Hazard 8 passed!
+[        24] Test                         Hazard 9 passed!
+[        25] Test                      Hazard 10 1 passed!
+[        26] Test                      Hazard 10 2 passed!
+All tests passed!
+$finish called at time : 5070 ns : File "C:/2024_CA_LAB/LAB/Final_Project_team1/hardware/testbench/cpu_tb.v" Line 522
+relaunch_sim: Time (s): cpu = 00:00:01 ; elapsed = 00:00:16 . Memory (MB): peak = 1156.469 ; gain = 0.000
+add_bp {C:/2024_CA_LAB/LAB/Final_Project_team1/hardware/testbench/cpu_tb.v} 218
+remove_bps -file {C:/2024_CA_LAB/LAB/Final_Project_team1/hardware/testbench/cpu_tb.v} -line 218
+add_bp {C:/2024_CA_LAB/LAB/Final_Project_team1/hardware/testbench/cpu_tb.v} 218
+remove_bps -file {C:/2024_CA_LAB/LAB/Final_Project_team1/hardware/testbench/cpu_tb.v} -line 218
+add_bp {C:/2024_CA_LAB/LAB/Final_Project_team1/hardware/testbench/cpu_tb.v} 218
+remove_bps -file {C:/2024_CA_LAB/LAB/Final_Project_team1/hardware/testbench/cpu_tb.v} -line 218
+add_bp {C:/2024_CA_LAB/LAB/Final_Project_team1/hardware/testbench/cpu_tb.v} 218
+remove_bps -file {C:/2024_CA_LAB/LAB/Final_Project_team1/hardware/testbench/cpu_tb.v} -line 218
+save_wave_config {C:/2024_CA_LAB/LAB/Final_Project_team1/hardware/sim/cpu_tb_behav.wcfg}
+add_files -fileset sim_1 -norecurse C:/2024_CA_LAB/LAB/Final_Project_team1/hardware/sim/cpu_tb_behav.wcfg
+set_property xsim.view C:/2024_CA_LAB/LAB/Final_Project_team1/hardware/sim/cpu_tb_behav.wcfg [get_filesets sim_1]
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+exit
+INFO: [Common 17-206] Exiting Vivado at Thu Jun 13 16:04:47 2024...

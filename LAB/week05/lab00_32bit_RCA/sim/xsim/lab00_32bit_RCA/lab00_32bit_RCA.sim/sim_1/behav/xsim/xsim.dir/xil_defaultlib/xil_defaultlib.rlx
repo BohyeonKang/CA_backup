@@ -1,0 +1,8 @@
+0.6
+2019.2
+Nov  6 2019
+21:57:16
+C:/2024_CA_LAB/LAB/week05/lab00_32bit_RCA/sim/xsim/lab00_32bit_RCA/lab00_32bit_RCA.sim/sim_1/behav/xsim/glbl.v,1573089660,verilog,,,,glbl,,,,,,,,
+C:/2024_CA_LAB/LAB/week05/lab00_32bit_RCA/src/rtl/full_adder.v,1712300934,verilog,,C:/2024_CA_LAB/LAB/week05/lab00_32bit_RCA/src/rtl/ripple_carry_adder.v,,full_adder,,,,,,,,
+C:/2024_CA_LAB/LAB/week05/lab00_32bit_RCA/src/rtl/ripple_carry_adder.v,1712300934,verilog,,C:/2024_CA_LAB/LAB/week05/lab00_32bit_RCA/testbench/tb_ripple_carry_adder.v,,ripple_carry_adder,,,,,,,,
+C:/2024_CA_LAB/LAB/week05/lab00_32bit_RCA/testbench/tb_ripple_carry_adder.v,1712301746,verilog,,,,tb_ripple_carry_adder,,,,,,,,

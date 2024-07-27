@@ -1,0 +1,17 @@
+#-----------------------------------------------------------
+# Vivado v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Thu Jun 13 16:04:55 2024
+# Process ID: 7848
+# Current directory: C:/2024_CA_LAB/LAB/Final_Project_team1/hardware/impl/01.GPIO_LED/vivado/fpga/MIPS_System_LED_impl
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent22592 C:\2024_CA_LAB\LAB\Final_Project_team1\hardware\impl\01.GPIO_LED\vivado\fpga\MIPS_System_LED_impl\MIPS_System_LED_impl.xpr
+# Log file: C:/2024_CA_LAB/LAB/Final_Project_team1/hardware/impl/01.GPIO_LED/vivado/fpga/MIPS_System_LED_impl/vivado.log
+# Journal file: C:/2024_CA_LAB/LAB/Final_Project_team1/hardware/impl/01.GPIO_LED/vivado/fpga/MIPS_System_LED_impl\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/2024_CA_LAB/LAB/Final_Project_team1/hardware/impl/01.GPIO_LED/vivado/fpga/MIPS_System_LED_impl/MIPS_System_LED_impl.xpr
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+wait_on_run impl_1

@@ -1,0 +1,9 @@
+0.6
+2019.2
+Nov  6 2019
+21:57:16
+C:/2024_CA_LAB/LAB/week04/review/full_adder_32bit/full_adder_32bit/full_adder_32bit.sim/sim_1/behav/xsim/glbl.v,1573089660,verilog,,,,glbl,,,,,,,,
+C:/2024_CA_LAB/LAB/week04/review/full_adder_32bit/full_adder_32bit/full_adder_32bit.srcs/sources_1/new/eeee.v,1712236804,verilog,,C:/2024_CA_LAB/LAB/week04/review/full_adder_32bit/full_adder_32bit/full_adder_32bit.srcs/sources_1/new/tb_eeee.v,,full_adder;ripple_carry_adder,,,,,,,,
+C:/2024_CA_LAB/LAB/week04/review/full_adder_32bit/full_adder_32bit/full_adder_32bit.srcs/sources_1/new/half_adder_1bit.v,1712233552,verilog,,C:/2024_CA_LAB/LAB/week04/review/full_adder_32bit/full_adder_32bit/full_adder_32bit.srcs/sources_1/new/tb_half_adder_1bit.v,,half_adder_1bit,,,,,,,,
+C:/2024_CA_LAB/LAB/week04/review/full_adder_32bit/full_adder_32bit/full_adder_32bit.srcs/sources_1/new/tb_eeee.v,1712234935,verilog,,,,tb_ripple_carry_adder,,,,,,,,
+C:/2024_CA_LAB/LAB/week04/review/full_adder_32bit/full_adder_32bit/full_adder_32bit.srcs/sources_1/new/tb_half_adder_1bit.v,1712233918,verilog,,,,tb_half_adder_1bit,,,,,,,,

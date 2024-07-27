@@ -1,0 +1,15 @@
+Vivado Simulator 2019.2
+Time resolution is 1 ps
+               full adder 4-bit Test!!
+[Binary]                  5000 ns: a: 0111  b: 0111 c_in: 0  sum: 1110 c_out: 0
+[Decimal]                15000 ns: a:  7  b:  7 c_in: 1  sum: 15 c_out: 0
+[Hexa]                   25000 ns: a: 7  b: 7 c_in: 0  sum: e c_out: 0
+               35000 ns: a:  0  b:  0 c_in: 1  sum:  1 c_out: 0
+               45000 ns: a:  0  b: 15 c_in: 0  sum: 15 c_out: 0
+               55000 ns: a:  1  b: 15 c_in: 0  sum:  0 c_out: 1
+               65000 ns: a:  2  b: 15 c_in: 0  sum:  1 c_out: 1
+               75000 ns: a: 15  b: 15 c_in: 0  sum: 14 c_out: 1
+               85000 ns: a:  0  b: 15 c_in: 0  sum: 15 c_out: 0
+               95000 ns: a:  1  b: 15 c_in: 0  sum:  0 c_out: 1
+              105000 ns: a:  2  b: 15 c_in: 0  sum:  1 c_out: 1
+$finish called at time : 125 ns : File "C:/2024_CA_LAB/LAB/week05/lab01_half_4bit_full_adder/testbench/testbench.v" Line 85

@@ -1,0 +1,20 @@
+0.6
+2019.2
+Nov  6 2019
+21:57:16
+C:/2024_CA_LAB/LAB/week10/week10_student_single/01.MIPS_single_cycle/sim/xsim/MIPS_single_cycle/MIPS_single_cycle.sim/sim_1/behav/xsim/glbl.v,1573089660,verilog,,,,glbl,,,,,,,,
+C:/2024_CA_LAB/LAB/week10/week10_student_single/01.MIPS_single_cycle/sim/xsim/mem_path.vh,1715324957,verilog,,,,,,,,,,,,
+C:/2024_CA_LAB/LAB/week10/week10_student_single/01.MIPS_single_cycle/sim/xsim/opcode.vh,1715324957,verilog,,,,,,,,,,,,
+C:/2024_CA_LAB/LAB/week10/week10_student_single/01.MIPS_single_cycle/src/rtl/ASYNC_RAM_DP.v,1715324958,verilog,,C:/2024_CA_LAB/LAB/week10/week10_student_single/01.MIPS_single_cycle/src/rtl/MIPS_System.v,,ASYNC_RAM_DP,,,../../../../../,,,,,
+C:/2024_CA_LAB/LAB/week10/week10_student_single/01.MIPS_single_cycle/src/rtl/MIPS_System.v,1715324958,verilog,,C:/2024_CA_LAB/LAB/week10/week10_student_single/01.MIPS_single_cycle/src/rtl/MIPS_cpu.v,,MIPS_System,,,../../../../../,,,,,
+C:/2024_CA_LAB/LAB/week10/week10_student_single/01.MIPS_single_cycle/src/rtl/MIPS_cpu.v,1715335762,verilog,,C:/2024_CA_LAB/LAB/week10/week10_student_single/01.MIPS_single_cycle/src/rtl/alu_32bit.v,,MIPS_cpu,,,../../../../../,,,,,
+C:/2024_CA_LAB/LAB/week10/week10_student_single/01.MIPS_single_cycle/src/rtl/alu_32bit.v,1714739137,verilog,,C:/2024_CA_LAB/LAB/week10/week10_student_single/01.MIPS_single_cycle/src/rtl/control_unit.v,,alu_32bit,,,../../../../../,,,,,
+C:/2024_CA_LAB/LAB/week10/week10_student_single/01.MIPS_single_cycle/src/rtl/control_unit.v,1714464219,verilog,,C:/2024_CA_LAB/LAB/week10/week10_student_single/01.MIPS_single_cycle/src/rtl/full_adder.v,,control_unit,,,../../../../../,,,,,
+C:/2024_CA_LAB/LAB/week10/week10_student_single/01.MIPS_single_cycle/src/rtl/full_adder.v,1714735612,verilog,,C:/2024_CA_LAB/LAB/week10/week10_student_single/01.MIPS_single_cycle/src/rtl/next_pc_logic.v,,full_adder,,,../../../../../,,,,,
+C:/2024_CA_LAB/LAB/week10/week10_student_single/01.MIPS_single_cycle/src/rtl/next_pc_logic.v,1714740518,verilog,,C:/2024_CA_LAB/LAB/week10/week10_student_single/01.MIPS_single_cycle/src/rtl/reg_file_async.v,,next_pc_logic,,,../../../../../,,,,,
+C:/2024_CA_LAB/LAB/week10/week10_student_single/01.MIPS_single_cycle/src/rtl/reg_file_async.v,1715324958,verilog,,C:/2024_CA_LAB/LAB/week10/week10_student_single/01.MIPS_single_cycle/src/rtl/ripple_carry_adder.v,,reg_file_async,,,../../../../../,,,,,
+C:/2024_CA_LAB/LAB/week10/week10_student_single/01.MIPS_single_cycle/src/rtl/ripple_carry_adder.v,1714735636,verilog,,C:/2024_CA_LAB/LAB/week10/week10_student_single/01.MIPS_single_cycle/src/rtl/sign_extension.v,,ripple_carry_adder,,,../../../../../,,,,,
+C:/2024_CA_LAB/LAB/week10/week10_student_single/01.MIPS_single_cycle/src/rtl/sign_extension.v,1714460973,verilog,,C:/2024_CA_LAB/LAB/week10/week10_student_single/01.MIPS_single_cycle/src/rtl/write_back_address.v,,sign_extension,,,../../../../../,,,,,
+C:/2024_CA_LAB/LAB/week10/week10_student_single/01.MIPS_single_cycle/src/rtl/write_back_address.v,1713516735,verilog,,C:/2024_CA_LAB/LAB/week10/week10_student_single/01.MIPS_single_cycle/src/rtl/write_back_data.v,,write_back_address,,,../../../../../,,,,,
+C:/2024_CA_LAB/LAB/week10/week10_student_single/01.MIPS_single_cycle/src/rtl/write_back_data.v,1714391920,verilog,,C:/2024_CA_LAB/LAB/week10/week10_student_single/01.MIPS_single_cycle/testbench/cpu_tb.v,,write_back_data,,,../../../../../,,,,,
+C:/2024_CA_LAB/LAB/week10/week10_student_single/01.MIPS_single_cycle/testbench/cpu_tb.v,1715328530,verilog,,,C:/2024_CA_LAB/LAB/week10/week10_student_single/01.MIPS_single_cycle/sim/xsim/opcode.vh;C:/2024_CA_LAB/LAB/week10/week10_student_single/01.MIPS_single_cycle/sim/xsim/mem_path.vh,cpu_tb,,,../../../../../,,,,,

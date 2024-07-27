@@ -1,0 +1,8 @@
+Vivado Simulator 2019.2
+Time resolution is 1 ps
+               a:  2   b:  4   c:  8   d: 10 
+                1000 ns: sel: 00 / out:  2 
+               11000 ns: sel: 01 / out:  4 
+               21000 ns: sel: 10 / out:  8 
+               31000 ns: sel: 11 / out: 10 
+$finish called at time : 51 ns : File "C:/2024_CA_LAB/week04_sol/week04_sol/lab01_4x1_multiplexer/testbench/testbench.v" Line 39

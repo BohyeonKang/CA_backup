@@ -1,0 +1,273 @@
+#-----------------------------------------------------------
+# Vivado v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Fri Mar 22 20:25:26 2024
+# Process ID: 25292
+# Current directory: C:/2024_CA_LAB/LAB/week03/hw_02_Blocking/sim/xsim/project_1
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent16848 C:\2024_CA_LAB\LAB\week03\hw_02_Blocking\sim\xsim\project_1\project_1.xpr
+# Log file: C:/2024_CA_LAB/LAB/week03/hw_02_Blocking/sim/xsim/project_1/vivado.log
+# Journal file: C:/2024_CA_LAB/LAB/week03/hw_02_Blocking/sim/xsim/project_1\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/2024_CA_LAB/LAB/week03/hw_02_Blocking/sim/xsim/project_1/project_1.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2019.2/data/ip'.
+update_compile_order -fileset sources_1
+save_project_as Blocking C:/2024_CA_LAB/LAB/week03/hw_02_Blocking/sim/xsim/Blocking -force
+save_project_as hw_02_Blocking C:/2024_CA_LAB/LAB/week03/hw_02_Blocking/sim/xsim/hw_02_Blocking -force
+update_compile_order -fileset sources_1
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/2024_CA_LAB/LAB/week03/hw_02_Blocking/sim/xsim/hw_02_Blocking/hw_02_Blocking.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_Blocking' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/2024_CA_LAB/LAB/week03/hw_02_Blocking/sim/xsim/hw_02_Blocking/hw_02_Blocking.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj tb_Blocking_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/2024_CA_LAB/LAB/week03/hw_02_Blocking/sim/xsim/hw_02_Blocking/hw_02_Blocking.srcs/sources_1/new/Blocking.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Blocking
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/2024_CA_LAB/LAB/week03/hw_02_Blocking/testbench/tb_Blocking.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_Blocking
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/2024_CA_LAB/LAB/week03/hw_02_Blocking/sim/xsim/hw_02_Blocking/hw_02_Blocking.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/2024_CA_LAB/LAB/week03/hw_02_Blocking/sim/xsim/hw_02_Blocking/hw_02_Blocking.sim/sim_1/behav/xsim'
+"xelab -wto 0615fa06fcf847f7910b498e872b7575 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_Blocking_behav xil_defaultlib.tb_Blocking xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2019.2
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2019.2/bin/unwrapped/win64.o/xelab.exe -wto 0615fa06fcf847f7910b498e872b7575 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_Blocking_behav xil_defaultlib.tb_Blocking xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "C:/2024_CA_LAB/LAB/week03/hw_02_Blocking/sim/xsim/hw_02_Blocking/hw_02_Blocking.srcs/sources_1/new/Blocking.v" Line 1. Module Blocking doesn't have a timescale but at least one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.Blocking
+Compiling module xil_defaultlib.tb_Blocking
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_Blocking_behav
+
+****** Webtalk v2019.2 (64-bit)
+  **** SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+  **** IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+    ** Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+
+source C:/2024_CA_LAB/LAB/week03/hw_02_Blocking/sim/xsim/hw_02_Blocking/hw_02_Blocking.sim/sim_1/behav/xsim/xsim.dir/tb_Blocking_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Fri Mar 22 20:27:16 2024...
+INFO: [USF-XSim-69] 'elaborate' step finished in '4' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/2024_CA_LAB/LAB/week03/hw_02_Blocking/sim/xsim/hw_02_Blocking/hw_02_Blocking.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "tb_Blocking_behav -key {Behavioral:sim_1:Functional:tb_Blocking} -tclbatch {tb_Blocking.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2019.2
+Time resolution is 1 ps
+source tb_Blocking.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+$stop called at time : 40 ns : File "C:/2024_CA_LAB/LAB/week03/hw_02_Blocking/testbench/tb_Blocking.v" Line 32
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'tb_Blocking_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:08 ; elapsed = 00:00:10 . Memory (MB): peak = 984.164 ; gain = 22.254
+relaunch_sim
+Command: launch_simulation -simset sim_1 -mode behavioral
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/2024_CA_LAB/LAB/week03/hw_02_Blocking/sim/xsim/hw_02_Blocking/hw_02_Blocking.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_Blocking' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/2024_CA_LAB/LAB/week03/hw_02_Blocking/sim/xsim/hw_02_Blocking/hw_02_Blocking.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj tb_Blocking_vlog.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+Command: launch_simulation -simset sim_1 -mode behavioral
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/2024_CA_LAB/LAB/week03/hw_02_Blocking/sim/xsim/hw_02_Blocking/hw_02_Blocking.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/2024_CA_LAB/LAB/week03/hw_02_Blocking/sim/xsim/hw_02_Blocking/hw_02_Blocking.sim/sim_1/behav/xsim'
+"xelab -wto 0615fa06fcf847f7910b498e872b7575 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_Blocking_behav xil_defaultlib.tb_Blocking xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2019.2
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2019.2/bin/unwrapped/win64.o/xelab.exe -wto 0615fa06fcf847f7910b498e872b7575 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_Blocking_behav xil_defaultlib.tb_Blocking xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+Vivado Simulator 2019.2
+Time resolution is 1 ps
+$stop called at time : 40 ns : File "C:/2024_CA_LAB/LAB/week03/hw_02_Blocking/testbench/tb_Blocking.v" Line 32
+relaunch_sim: Time (s): cpu = 00:00:02 ; elapsed = 00:00:09 . Memory (MB): peak = 984.164 ; gain = 0.000
+synth_design -rtl -name rtl_1
+Command: synth_design -rtl -name rtl_1
+Starting synth_design
+Using part: xc7a200tffg1156-2L
+Top: tb_Blocking
+INFO: [Device 21-403] Loading part xc7a200tffg1156-2L
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 1493.824 ; gain = 227.328
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'tb_Blocking' [C:/2024_CA_LAB/LAB/week03/hw_02_Blocking/testbench/tb_Blocking.v:3]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/2024_CA_LAB/LAB/week03/hw_02_Blocking/testbench/tb_Blocking.v:17]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/2024_CA_LAB/LAB/week03/hw_02_Blocking/testbench/tb_Blocking.v:17]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/2024_CA_LAB/LAB/week03/hw_02_Blocking/testbench/tb_Blocking.v:17]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/2024_CA_LAB/LAB/week03/hw_02_Blocking/testbench/tb_Blocking.v:17]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/2024_CA_LAB/LAB/week03/hw_02_Blocking/testbench/tb_Blocking.v:17]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/2024_CA_LAB/LAB/week03/hw_02_Blocking/testbench/tb_Blocking.v:17]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/2024_CA_LAB/LAB/week03/hw_02_Blocking/testbench/tb_Blocking.v:17]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/2024_CA_LAB/LAB/week03/hw_02_Blocking/testbench/tb_Blocking.v:17]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/2024_CA_LAB/LAB/week03/hw_02_Blocking/testbench/tb_Blocking.v:17]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/2024_CA_LAB/LAB/week03/hw_02_Blocking/testbench/tb_Blocking.v:17]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/2024_CA_LAB/LAB/week03/hw_02_Blocking/testbench/tb_Blocking.v:17]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/2024_CA_LAB/LAB/week03/hw_02_Blocking/testbench/tb_Blocking.v:17]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/2024_CA_LAB/LAB/week03/hw_02_Blocking/testbench/tb_Blocking.v:17]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/2024_CA_LAB/LAB/week03/hw_02_Blocking/testbench/tb_Blocking.v:17]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/2024_CA_LAB/LAB/week03/hw_02_Blocking/testbench/tb_Blocking.v:17]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/2024_CA_LAB/LAB/week03/hw_02_Blocking/testbench/tb_Blocking.v:17]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/2024_CA_LAB/LAB/week03/hw_02_Blocking/testbench/tb_Blocking.v:17]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/2024_CA_LAB/LAB/week03/hw_02_Blocking/testbench/tb_Blocking.v:17]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/2024_CA_LAB/LAB/week03/hw_02_Blocking/testbench/tb_Blocking.v:17]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/2024_CA_LAB/LAB/week03/hw_02_Blocking/testbench/tb_Blocking.v:17]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/2024_CA_LAB/LAB/week03/hw_02_Blocking/testbench/tb_Blocking.v:17]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/2024_CA_LAB/LAB/week03/hw_02_Blocking/testbench/tb_Blocking.v:17]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/2024_CA_LAB/LAB/week03/hw_02_Blocking/testbench/tb_Blocking.v:17]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/2024_CA_LAB/LAB/week03/hw_02_Blocking/testbench/tb_Blocking.v:17]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/2024_CA_LAB/LAB/week03/hw_02_Blocking/testbench/tb_Blocking.v:17]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/2024_CA_LAB/LAB/week03/hw_02_Blocking/testbench/tb_Blocking.v:17]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/2024_CA_LAB/LAB/week03/hw_02_Blocking/testbench/tb_Blocking.v:17]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/2024_CA_LAB/LAB/week03/hw_02_Blocking/testbench/tb_Blocking.v:17]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/2024_CA_LAB/LAB/week03/hw_02_Blocking/testbench/tb_Blocking.v:17]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/2024_CA_LAB/LAB/week03/hw_02_Blocking/testbench/tb_Blocking.v:17]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/2024_CA_LAB/LAB/week03/hw_02_Blocking/testbench/tb_Blocking.v:17]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/2024_CA_LAB/LAB/week03/hw_02_Blocking/testbench/tb_Blocking.v:17]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/2024_CA_LAB/LAB/week03/hw_02_Blocking/testbench/tb_Blocking.v:17]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/2024_CA_LAB/LAB/week03/hw_02_Blocking/testbench/tb_Blocking.v:17]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/2024_CA_LAB/LAB/week03/hw_02_Blocking/testbench/tb_Blocking.v:17]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/2024_CA_LAB/LAB/week03/hw_02_Blocking/testbench/tb_Blocking.v:17]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/2024_CA_LAB/LAB/week03/hw_02_Blocking/testbench/tb_Blocking.v:17]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/2024_CA_LAB/LAB/week03/hw_02_Blocking/testbench/tb_Blocking.v:17]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/2024_CA_LAB/LAB/week03/hw_02_Blocking/testbench/tb_Blocking.v:17]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/2024_CA_LAB/LAB/week03/hw_02_Blocking/testbench/tb_Blocking.v:17]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/2024_CA_LAB/LAB/week03/hw_02_Blocking/testbench/tb_Blocking.v:17]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/2024_CA_LAB/LAB/week03/hw_02_Blocking/testbench/tb_Blocking.v:17]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/2024_CA_LAB/LAB/week03/hw_02_Blocking/testbench/tb_Blocking.v:17]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/2024_CA_LAB/LAB/week03/hw_02_Blocking/testbench/tb_Blocking.v:17]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/2024_CA_LAB/LAB/week03/hw_02_Blocking/testbench/tb_Blocking.v:17]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/2024_CA_LAB/LAB/week03/hw_02_Blocking/testbench/tb_Blocking.v:17]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/2024_CA_LAB/LAB/week03/hw_02_Blocking/testbench/tb_Blocking.v:17]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/2024_CA_LAB/LAB/week03/hw_02_Blocking/testbench/tb_Blocking.v:17]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/2024_CA_LAB/LAB/week03/hw_02_Blocking/testbench/tb_Blocking.v:17]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/2024_CA_LAB/LAB/week03/hw_02_Blocking/testbench/tb_Blocking.v:17]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/2024_CA_LAB/LAB/week03/hw_02_Blocking/testbench/tb_Blocking.v:17]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/2024_CA_LAB/LAB/week03/hw_02_Blocking/testbench/tb_Blocking.v:17]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/2024_CA_LAB/LAB/week03/hw_02_Blocking/testbench/tb_Blocking.v:17]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/2024_CA_LAB/LAB/week03/hw_02_Blocking/testbench/tb_Blocking.v:17]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/2024_CA_LAB/LAB/week03/hw_02_Blocking/testbench/tb_Blocking.v:17]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/2024_CA_LAB/LAB/week03/hw_02_Blocking/testbench/tb_Blocking.v:17]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/2024_CA_LAB/LAB/week03/hw_02_Blocking/testbench/tb_Blocking.v:17]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/2024_CA_LAB/LAB/week03/hw_02_Blocking/testbench/tb_Blocking.v:17]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/2024_CA_LAB/LAB/week03/hw_02_Blocking/testbench/tb_Blocking.v:17]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/2024_CA_LAB/LAB/week03/hw_02_Blocking/testbench/tb_Blocking.v:17]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/2024_CA_LAB/LAB/week03/hw_02_Blocking/testbench/tb_Blocking.v:17]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/2024_CA_LAB/LAB/week03/hw_02_Blocking/testbench/tb_Blocking.v:17]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/2024_CA_LAB/LAB/week03/hw_02_Blocking/testbench/tb_Blocking.v:17]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/2024_CA_LAB/LAB/week03/hw_02_Blocking/testbench/tb_Blocking.v:17]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/2024_CA_LAB/LAB/week03/hw_02_Blocking/testbench/tb_Blocking.v:17]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/2024_CA_LAB/LAB/week03/hw_02_Blocking/testbench/tb_Blocking.v:17]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/2024_CA_LAB/LAB/week03/hw_02_Blocking/testbench/tb_Blocking.v:17]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/2024_CA_LAB/LAB/week03/hw_02_Blocking/testbench/tb_Blocking.v:17]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/2024_CA_LAB/LAB/week03/hw_02_Blocking/testbench/tb_Blocking.v:17]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/2024_CA_LAB/LAB/week03/hw_02_Blocking/testbench/tb_Blocking.v:17]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/2024_CA_LAB/LAB/week03/hw_02_Blocking/testbench/tb_Blocking.v:17]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/2024_CA_LAB/LAB/week03/hw_02_Blocking/testbench/tb_Blocking.v:17]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/2024_CA_LAB/LAB/week03/hw_02_Blocking/testbench/tb_Blocking.v:17]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/2024_CA_LAB/LAB/week03/hw_02_Blocking/testbench/tb_Blocking.v:17]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/2024_CA_LAB/LAB/week03/hw_02_Blocking/testbench/tb_Blocking.v:17]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/2024_CA_LAB/LAB/week03/hw_02_Blocking/testbench/tb_Blocking.v:17]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/2024_CA_LAB/LAB/week03/hw_02_Blocking/testbench/tb_Blocking.v:17]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/2024_CA_LAB/LAB/week03/hw_02_Blocking/testbench/tb_Blocking.v:17]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/2024_CA_LAB/LAB/week03/hw_02_Blocking/testbench/tb_Blocking.v:17]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/2024_CA_LAB/LAB/week03/hw_02_Blocking/testbench/tb_Blocking.v:17]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/2024_CA_LAB/LAB/week03/hw_02_Blocking/testbench/tb_Blocking.v:17]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/2024_CA_LAB/LAB/week03/hw_02_Blocking/testbench/tb_Blocking.v:17]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/2024_CA_LAB/LAB/week03/hw_02_Blocking/testbench/tb_Blocking.v:17]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/2024_CA_LAB/LAB/week03/hw_02_Blocking/testbench/tb_Blocking.v:17]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/2024_CA_LAB/LAB/week03/hw_02_Blocking/testbench/tb_Blocking.v:17]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/2024_CA_LAB/LAB/week03/hw_02_Blocking/testbench/tb_Blocking.v:17]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/2024_CA_LAB/LAB/week03/hw_02_Blocking/testbench/tb_Blocking.v:17]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/2024_CA_LAB/LAB/week03/hw_02_Blocking/testbench/tb_Blocking.v:17]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/2024_CA_LAB/LAB/week03/hw_02_Blocking/testbench/tb_Blocking.v:17]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/2024_CA_LAB/LAB/week03/hw_02_Blocking/testbench/tb_Blocking.v:17]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/2024_CA_LAB/LAB/week03/hw_02_Blocking/testbench/tb_Blocking.v:17]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/2024_CA_LAB/LAB/week03/hw_02_Blocking/testbench/tb_Blocking.v:17]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/2024_CA_LAB/LAB/week03/hw_02_Blocking/testbench/tb_Blocking.v:17]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/2024_CA_LAB/LAB/week03/hw_02_Blocking/testbench/tb_Blocking.v:17]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/2024_CA_LAB/LAB/week03/hw_02_Blocking/testbench/tb_Blocking.v:17]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/2024_CA_LAB/LAB/week03/hw_02_Blocking/testbench/tb_Blocking.v:17]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/2024_CA_LAB/LAB/week03/hw_02_Blocking/testbench/tb_Blocking.v:17]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/2024_CA_LAB/LAB/week03/hw_02_Blocking/testbench/tb_Blocking.v:17]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/2024_CA_LAB/LAB/week03/hw_02_Blocking/testbench/tb_Blocking.v:17]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [C:/2024_CA_LAB/LAB/week03/hw_02_Blocking/testbench/tb_Blocking.v:17]
+INFO: [Common 17-14] Message 'Synth 8-311' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+WARNING: [Synth 8-6896] loop limit (65536) exceeded inside initial block, initial block items will be ignored [C:/2024_CA_LAB/LAB/week03/hw_02_Blocking/testbench/tb_Blocking.v:16]
+INFO: [Synth 8-6157] synthesizing module 'Blocking' [C:/2024_CA_LAB/LAB/week03/hw_02_Blocking/sim/xsim/hw_02_Blocking/hw_02_Blocking.srcs/sources_1/new/Blocking.v:1]
+WARNING: [Synth 8-6014] Unused sequential element b_reg was removed.  [C:/2024_CA_LAB/LAB/week03/hw_02_Blocking/sim/xsim/hw_02_Blocking/hw_02_Blocking.srcs/sources_1/new/Blocking.v:10]
+INFO: [Synth 8-6155] done synthesizing module 'Blocking' (1#1) [C:/2024_CA_LAB/LAB/week03/hw_02_Blocking/sim/xsim/hw_02_Blocking/hw_02_Blocking.srcs/sources_1/new/Blocking.v:1]
+WARNING: [Synth 8-3848] Net clk in module/entity tb_Blocking does not have driver. [C:/2024_CA_LAB/LAB/week03/hw_02_Blocking/testbench/tb_Blocking.v:4]
+INFO: [Synth 8-6155] done synthesizing module 'tb_Blocking' (2#1) [C:/2024_CA_LAB/LAB/week03/hw_02_Blocking/testbench/tb_Blocking.v:3]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 1597.723 ; gain = 331.227
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 1597.723 ; gain = 331.227
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 1597.723 ; gain = 331.227
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1597.723 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Completed Processing XDC Constraints
+
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1597.723 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+RTL Elaboration Complete:  : Time (s): cpu = 00:00:20 ; elapsed = 00:00:12 . Memory (MB): peak = 1756.113 ; gain = 489.617
+9 Infos, 103 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:25 ; elapsed = 00:00:17 . Memory (MB): peak = 1756.113 ; gain = 771.949
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+exit
+INFO: [Common 17-206] Exiting Vivado at Fri Mar 22 21:11:20 2024...

@@ -1,0 +1,8 @@
+0.6
+2019.2
+Nov  6 2019
+21:57:16
+C:/2024_CA_LAB/LAB/week04/HW_ripple_carry_adder_32bit/sim/xsim/HW_ripple_carry_adder_32bit/HW_full_adder_32bit.sim/sim_1/behav/xsim/glbl.v,1573089660,verilog,,,,glbl,,,,,,,,
+C:/2024_CA_LAB/LAB/week04/HW_ripple_carry_adder_32bit/src/full_adder_src.v,1712891882,verilog,,C:/2024_CA_LAB/LAB/week04/HW_ripple_carry_adder_32bit/src/ripple_carry_adder_src.v,,full_adder_src,,,,,,,,
+C:/2024_CA_LAB/LAB/week04/HW_ripple_carry_adder_32bit/src/ripple_carry_adder_src.v,1712892030,verilog,,C:/2024_CA_LAB/LAB/week04/HW_ripple_carry_adder_32bit/testbench/tb_full_adder_32bit.v,,ripple_carry_adder_src,,,,,,,,
+C:/2024_CA_LAB/LAB/week04/HW_ripple_carry_adder_32bit/testbench/tb_full_adder_32bit.v,1712891909,verilog,,,,tb_ripple_carry_adder_32bit,,,,,,,,

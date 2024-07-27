@@ -1,0 +1,29 @@
+#-----------------------------------------------------------
+# Vivado v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Fri May 31 16:38:00 2024
+# Process ID: 25100
+# Current directory: C:/2024_CA_LAB/LAB/week13_FPGA_seg_student/lab01_seg_2024/sim/xsim/segment_sim
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent23852 C:\2024_CA_LAB\LAB\week13_FPGA_seg_student\lab01_seg_2024\sim\xsim\segment_sim\segment_sim.xpr
+# Log file: C:/2024_CA_LAB/LAB/week13_FPGA_seg_student/lab01_seg_2024/sim/xsim/segment_sim/vivado.log
+# Journal file: C:/2024_CA_LAB/LAB/week13_FPGA_seg_student/lab01_seg_2024/sim/xsim/segment_sim\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/2024_CA_LAB/LAB/week13_FPGA_seg_student/lab01_seg_2024/sim/xsim/segment_sim/segment_sim.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+source testbench.tcl
+create_project segment_impl C:/2024_CA_LAB/LAB/week13_FPGA_seg_student/lab01_seg_2024/impl/vivado/fpga/segment_impl -part xc7a75tfgg484-2L
+set_property simulator_language Verilog [current_project]
+add_files -norecurse {C:/2024_CA_LAB/LAB/week13_FPGA_seg_student/lab01_seg_2024/src/rtl/SEG7_LUT.v C:/2024_CA_LAB/LAB/week13_FPGA_seg_student/lab01_seg_2024/src/rtl/clock_divider.v C:/2024_CA_LAB/LAB/week13_FPGA_seg_student/lab01_seg_2024/src/rtl/seg7driver.v C:/2024_CA_LAB/LAB/week13_FPGA_seg_student/lab01_seg_2024/src/rtl/segment.v}
+update_compile_order -fileset sources_1
+add_files -fileset constrs_1 -norecurse C:/2024_CA_LAB/LAB/week13_FPGA_seg_student/lab01_seg_2024/impl/vivado/xdc/FPGA_Starter_Kit_III.xdc
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+wait_on_run impl_1
+current_project segment_sim
+current_project segment_impl
+current_project segment_sim
+current_project segment_impl
+close_project
+close_sim

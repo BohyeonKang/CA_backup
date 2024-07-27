@@ -1,0 +1,4 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/2024_CA_LAB/LAB/week07/HW_control_unit/src/control_unit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module control_unit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/2024_CA_LAB/LAB/week07/HW_control_unit/testbench/tb_control_unit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_control_unit

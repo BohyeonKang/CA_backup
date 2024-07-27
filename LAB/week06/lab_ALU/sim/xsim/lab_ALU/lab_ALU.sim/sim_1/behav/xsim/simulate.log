@@ -1,0 +1,4 @@
+Vivado Simulator 2019.2
+Time resolution is 1 ps
+32-bit ALU test!!
+$finish called at time : 180 ns : File "C:/2024_CA_LAB/LAB/week06/lab_ALU/testbench/tb_alu_32bit.v" Line 66

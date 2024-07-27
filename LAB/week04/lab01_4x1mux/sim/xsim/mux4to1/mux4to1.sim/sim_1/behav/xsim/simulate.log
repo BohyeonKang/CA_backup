@@ -1,0 +1,3 @@
+Vivado Simulator 2019.2
+Time resolution is 1 ps
+$finish called at time : 80 ns : File "C:/2024_CA_LAB/LAB/week04/lab01_4x1mux/testbench/tb_mux4to1.v" Line 15

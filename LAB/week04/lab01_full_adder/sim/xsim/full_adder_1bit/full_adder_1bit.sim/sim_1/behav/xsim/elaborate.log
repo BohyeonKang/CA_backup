@@ -1,0 +1,15 @@
+Vivado Simulator 2019.2
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2019.2/bin/unwrapped/win64.o/xelab.exe -wto 7d3e96ebd5af47be9b47376bf3ae81a3 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_full_adder_1bit_behav xil_defaultlib.tb_full_adder_1bit xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "C:/2024_CA_LAB/LAB/week04/lab01_full_adder/src/full_adder_1bit.v" Line 32. Module full_adder_1bit_optimized doesn't have a timescale but at least one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.full_adder_1bit_optimized
+Compiling module xil_defaultlib.tb_full_adder_1bit
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_full_adder_1bit_behav

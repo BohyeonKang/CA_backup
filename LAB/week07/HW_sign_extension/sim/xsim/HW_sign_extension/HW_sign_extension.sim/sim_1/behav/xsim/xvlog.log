@@ -1,0 +1,4 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/2024_CA_LAB/LAB/week07/HW_sign_extension/src/sign_extension.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sign_extension
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/2024_CA_LAB/LAB/week07/HW_sign_extension/testbench/tb_sign_extension.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_sign_extension

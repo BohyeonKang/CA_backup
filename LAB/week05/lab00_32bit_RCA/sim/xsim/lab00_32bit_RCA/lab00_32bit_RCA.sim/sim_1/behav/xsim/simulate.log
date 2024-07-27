@@ -1,0 +1,16 @@
+Vivado Simulator 2019.2
+Time resolution is 1 ps
+               32-bit Ripple Carry Adder
+                5000 ns:          0 +          0 + 0 / sum:          0 c_out: 0
+               15000 ns:          1 +          1 + 0 / sum:          2 c_out: 0
+               25000 ns:          2 +          5 + 1 / sum:          8 c_out: 0
+               35000 ns:         25 +         30 + 0 / sum:         55 c_out: 0
+               45000 ns:        100 +        200 + 1 / sum:        301 c_out: 0
+               55000 ns:      15520 +      35000 + 0 / sum:      50520 c_out: 0
+               65000 ns:         10 +         10 + 0 / sum:         20 c_out: 0
+               75000 ns:         10 +         10 + 1 / sum:         21 c_out: 0
+               85000 ns: ffffffff +          1 + 0 / sum:          0 c_out: 1
+               95000 ns: 4294967295 +          5 + 0 / sum:          4 c_out: 1
+              105000 ns:          0 +         10 + 0 / sum:         10 c_out: 0
+              115000 ns:          0 +        100 + 0 / sum:        100 c_out: 0
+$finish called at time : 135 ns : File "C:/2024_CA_LAB/LAB/week05/lab00_32bit_RCA/testbench/tb_ripple_carry_adder.v" Line 54

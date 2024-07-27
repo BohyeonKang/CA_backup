@@ -1,0 +1,381 @@
+/*
+
+Xilinx Vivado v2019.2 (64-bit) [Major: 2019, Minor: 2]
+SW Build: 2708876 on Wed Nov  6 21:40:23 MST 2019
+IP Build: 2700528 on Thu Nov  7 00:09:20 MST 2019
+
+Process ID (PID): 11780
+License: Customer
+
+Current time: 	Fri Mar 22 17:36:28 KST 2024
+Time zone: 	Korean Standard Time (Asia/Seoul)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 16
+
+Screen size: 1920x1080
+Screen resolution (DPI): 150
+Available screens: 1
+Available disk space: 126 GB
+Default font: family=Segoe UI,name=Segoe UI,style=plain,size=18
+
+Java version: 	9.0.4 64-bit
+Java home: 	C:/Xilinx/Vivado/2019.2/tps/win64/jre9.0.4
+Java executable location: 	C:/Xilinx/Vivado/2019.2/tps/win64/jre9.0.4/bin/java.exe
+Java initial memory (-Xms): 	128 MB
+Java maximum memory (-Xmx):	 3 GB
+
+
+User name: 	Bohyeon
+User home directory: C:/Users/Bohyeon
+User working directory: C:/2024_CA_LAB/LAB/week03/lab02_not_gate_dff/sim/xsim/project_1
+User country: 	KR
+User language: 	ko
+User locale: 	ko_KR
+
+RDI_BASEROOT: C:/Xilinx/Vivado
+HDI_APPROOT: C:/Xilinx/Vivado/2019.2
+RDI_DATADIR: C:/Xilinx/Vivado/2019.2/data
+RDI_BINDIR: C:/Xilinx/Vivado/2019.2/bin
+
+Vivado preferences file location: C:/Users/Bohyeon/AppData/Roaming/Xilinx/Vivado/2019.2/vivado.xml
+Vivado preferences directory: C:/Users/Bohyeon/AppData/Roaming/Xilinx/Vivado/2019.2/
+Vivado layouts directory: C:/Users/Bohyeon/AppData/Roaming/Xilinx/Vivado/2019.2/layouts
+PlanAhead jar file location: 	C:/Xilinx/Vivado/2019.2/lib/classes/planAhead.jar
+Vivado log file location: 	C:/2024_CA_LAB/LAB/week03/lab02_not_gate_dff/sim/xsim/project_1/vivado.log
+Vivado journal file location: 	C:/2024_CA_LAB/LAB/week03/lab02_not_gate_dff/sim/xsim/project_1/vivado.jou
+Engine tmp dir: 	C:/2024_CA_LAB/LAB/week03/lab02_not_gate_dff/sim/xsim/project_1/.Xil/Vivado-11780-DESKTOP-FA97QT1
+
+Xilinx Environment Variables
+----------------------------
+XILINX: C:/Xilinx/Vivado/2019.2/ids_lite/ISE
+XILINX_DSP: C:/Xilinx/Vivado/2019.2/ids_lite/ISE
+XILINX_PLANAHEAD: C:/Xilinx/Vivado/2019.2
+XILINX_VIVADO: C:/Xilinx/Vivado/2019.2
+XILINX_VIVADO_HLS: C:/Xilinx/Vivado/2019.2
+
+
+GUI allocated memory:	154 MB
+GUI max memory:		3,072 MB
+Engine allocated memory: 645 MB
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// WARNING: HEventQueue.dispatchEvent() is taking  5728 ms.
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// WARNING: HEventQueue.dispatchEvent() is taking  1050 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 645 MB. GUI used memory: 57 MB. Current time: 3/22/24, 5:36:30 PM KST
+// TclEventType: PROJECT_OPEN_DIALOG
+// [GUI Memory]: 64 MB (+64863kb) [00:00:59]
+// [Engine Memory]: 647 MB (+526514kb) [00:00:59]
+// bB (cr):  Open Project : addNotify
+// Opening Vivado Project: C:\2024_CA_LAB\LAB\week03\lab02_not_gate_dff\sim\xsim\project_1\project_1.xpr. Version: Vivado v2019.2 
+// WARNING: HEventQueue.dispatchEvent() is taking  1365 ms.
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project C:/2024_CA_LAB/LAB/week03/lab02_not_gate_dff/sim/xsim/project_1/project_1.xpr 
+selectButton(RDIResource.ProgressDialog_CANCEL, "Cancel"); // a (bB)
+// Tcl Message: INFO: [Common 17-41] Interrupt caught. Command should exit soon. 
+// HMemoryUtils.trashcanNow. Engine heap size: 671 MB. GUI used memory: 55 MB. Current time: 3/22/24, 5:36:48 PM KST
+// HMemoryUtils.trashcanNow. Engine heap size: 757 MB. GUI used memory: 55 MB. Current time: 3/22/24, 5:37:02 PM KST
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: PROJECT_CLOSE
+// CommandFailedException: ERROR: [Common 17-69] Command failed:  
+// Tcl Message: INFO: [Common 17-344] 'open_project' was cancelled 
+// Elapsed time: 24 seconds
+dismissDialog("Open Project"); // bB (cr)
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1002 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 780 MB. GUI used memory: 55 MB. Current time: 3/22/24, 5:37:17 PM KST
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+// Elapsed time: 20 seconds
+selectButton(PAResourceEtoH.GettingStartedView_OPEN_PROJECT, "Open Project"); // y (x, cr)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_PROJECT
+setFileChooser("C:/2024_CA_LAB/LAB/week03/lab02_not_gate_dff/sim/xsim/project_1/project_1.xpr");
+// Opening Vivado Project: C:/2024_CA_LAB/LAB/week03/lab02_not_gate_dff/sim/xsim/project_1/project_1.xpr. Version: Vivado v2019.2 
+// bB (cr):  Open Project : addNotify
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// Tcl Message: open_project C:/2024_CA_LAB/LAB/week03/lab02_not_gate_dff/sim/xsim/project_1/project_1.xpr 
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_DASHBOARD_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_NEW
+// Tcl Message: open_project C:/2024_CA_LAB/LAB/week03/lab02_not_gate_dff/sim/xsim/project_1/project_1.xpr 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 87 MB (+20127kb) [00:02:08]
+// [Engine Memory]: 843 MB (+172406kb) [00:02:08]
+// WARNING: HEventQueue.dispatchEvent() is taking  12371 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1419 ms.
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2019.2/data/ip'. 
+// HMemoryUtils.trashcanNow. Engine heap size: 934 MB. GUI used memory: 60 MB. Current time: 3/22/24, 5:37:51 PM KST
+// WARNING: HEventQueue.dispatchEvent() is taking  1069 ms.
+// [Engine Memory]: 934 MB (+50588kb) [00:02:22]
+// Project name: project_1; location: C:/2024_CA_LAB/LAB/week03/lab02_not_gate_dff/sim/xsim/project_1; part: xc7a200tffg1156-2L
+// 'i' command handler elapsed time: 29 seconds
+// [GUI Memory]: 113 MB (+23106kb) [00:02:23]
+// WARNING: HEventQueue.dispatchEvent() is taking  1016 ms.
+// Tcl Message: open_project: Time (s): cpu = 00:01:12 ; elapsed = 00:00:21 . Memory (MB): peak = 962.285 ; gain = 83.258 
+// WARNING: HTimer (FileMgr Design Graph Update Timer) is taking 590ms to process. Increasing delay to 3000 ms.
+// Elapsed time: 22 seconds
+dismissDialog("Open Project"); // bB (cr)
+// Tcl Message: update_compile_order -fileset sources_1 
+// Elapsed time: 12 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, tb_not_gate_dff (tb_not_gate_dff.v)]", 1); // B (F, cr)
+// PAPropertyPanels.initPanels (not_gate_dff.v) elapsed time: 0.7s
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, tb_not_gate_dff (tb_not_gate_dff.v), dut : not_gate_dff (not_gate_dff.v)]", 2, false); // B (F, cr)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, tb_not_gate_dff (tb_not_gate_dff.v), dut : not_gate_dff (not_gate_dff.v)]", 2, false, false, false, false, false, true); // B (F, cr) - Double Click
+// WARNING: HEventQueue.dispatchEvent() is taking  1596 ms.
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, tb_not_gate_dff (tb_not_gate_dff.v)]", 1, true); // B (F, cr) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, tb_not_gate_dff (tb_not_gate_dff.v)]", 1, true, false, false, false, false, true); // B (F, cr) - Double Click - Node
+// WARNING: HEventQueue.dispatchEvent() is taking  1222 ms.
+maximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // P (aI, cr)
+selectCodeEditor("tb_not_gate_dff.v", 373, 223); // ch (w, cr)
+selectCodeEditor("tb_not_gate_dff.v", 449, 215); // ch (w, cr)
+selectCodeEditor("tb_not_gate_dff.v", 492, 267); // ch (w, cr)
+selectCodeEditor("tb_not_gate_dff.v", 338, 249); // ch (w, cr)
+selectCodeEditor("tb_not_gate_dff.v", 378, 203); // ch (w, cr)
+selectCodeEditor("tb_not_gate_dff.v", 433, 214); // ch (w, cr)
+selectCodeEditor("tb_not_gate_dff.v", 440, 434); // ch (w, cr)
+selectCodeEditor("tb_not_gate_dff.v", 308, 176); // ch (w, cr)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "not_gate_dff.v", 1); // i (h, cr)
+selectCodeEditor("not_gate_dff.v", 332, 380); // ch (w, cr)
+selectCodeEditor("not_gate_dff.v", 458, 291); // ch (w, cr)
+selectCodeEditor("not_gate_dff.v", 377, 272); // ch (w, cr)
+selectCodeEditor("not_gate_dff.v", 484, 280); // ch (w, cr)
+selectCodeEditor("not_gate_dff.v", 486, 266); // ch (w, cr)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "tb_not_gate_dff.v", 2); // i (h, cr)
+selectCodeEditor("tb_not_gate_dff.v", 55, 302); // ch (w, cr)
+selectCodeEditor("tb_not_gate_dff.v", 38, 320); // ch (w, cr)
+selectCodeEditor("tb_not_gate_dff.v", 361, 320); // ch (w, cr)
+selectCodeEditor("tb_not_gate_dff.v", 374, 506); // ch (w, cr)
+selectCodeEditor("tb_not_gate_dff.v", 376, 275); // ch (w, cr)
+selectCodeEditor("tb_not_gate_dff.v", 387, 245); // ch (w, cr)
+selectCodeEditor("tb_not_gate_dff.v", 467, 487); // ch (w, cr)
+selectCodeEditor("tb_not_gate_dff.v", 484, 516); // ch (w, cr)
+selectCodeEditor("tb_not_gate_dff.v", 479, 517); // ch (w, cr)
+selectCodeEditor("tb_not_gate_dff.v", 520, 517); // ch (w, cr)
+selectCodeEditor("tb_not_gate_dff.v", 363, 310); // ch (w, cr)
+selectCodeEditor("tb_not_gate_dff.v", 236, 315); // ch (w, cr)
+selectCodeEditor("tb_not_gate_dff.v", 246, 343); // ch (w, cr)
+selectCodeEditor("tb_not_gate_dff.v", 476, 270); // ch (w, cr)
+selectCodeEditor("tb_not_gate_dff.v", 588, 304); // ch (w, cr)
+selectCodeEditor("tb_not_gate_dff.v", 65, 115); // ch (w, cr)
+selectCodeEditor("tb_not_gate_dff.v", 4, 112); // ch (w, cr)
+selectCodeEditor("tb_not_gate_dff.v", 203, 310); // ch (w, cr)
+selectCodeEditor("tb_not_gate_dff.v", 206, 312, false, false, false, false, true); // ch (w, cr) - Double Click
+selectCodeEditor("tb_not_gate_dff.v", 226, 238); // ch (w, cr)
+selectCodeEditor("tb_not_gate_dff.v", 307, 263); // ch (w, cr)
+selectCodeEditor("tb_not_gate_dff.v", 282, 261); // ch (w, cr)
+selectCodeEditor("tb_not_gate_dff.v", 304, 294); // ch (w, cr)
+selectCodeEditor("tb_not_gate_dff.v", 336, 293); // ch (w, cr)
+selectCodeEditor("tb_not_gate_dff.v", 368, 289); // ch (w, cr)
+selectCodeEditor("tb_not_gate_dff.v", 243, 270); // ch (w, cr)
+selectCodeEditor("tb_not_gate_dff.v", 5, 86); // ch (w, cr)
+selectCodeEditor("tb_not_gate_dff.v", 216, 278); // ch (w, cr)
+selectCodeEditor("tb_not_gate_dff.v", 257, 510); // ch (w, cr)
+selectCodeEditor("tb_not_gate_dff.v", 80, 348); // ch (w, cr)
+selectCodeEditor("tb_not_gate_dff.v", 204, 276); // ch (w, cr)
+selectCodeEditor("tb_not_gate_dff.v", 206, 280); // ch (w, cr)
+selectCodeEditor("tb_not_gate_dff.v", 226, 282); // ch (w, cr)
+selectCodeEditor("tb_not_gate_dff.v", 273, 290); // ch (w, cr)
+selectCodeEditor("tb_not_gate_dff.v", 319, 286); // ch (w, cr)
+selectCodeEditor("tb_not_gate_dff.v", 242, 278); // ch (w, cr)
+selectCodeEditor("tb_not_gate_dff.v", 118, 220); // ch (w, cr)
+selectCodeEditor("tb_not_gate_dff.v", 485, 250); // ch (w, cr)
+selectCodeEditor("tb_not_gate_dff.v", 506, 250); // ch (w, cr)
+selectCodeEditor("tb_not_gate_dff.v", 281, 265); // ch (w, cr)
+selectCodeEditor("tb_not_gate_dff.v", 293, 275); // ch (w, cr)
+selectCodeEditor("tb_not_gate_dff.v", 196, 267); // ch (w, cr)
+selectCodeEditor("tb_not_gate_dff.v", 198, 270, false, false, false, false, true); // ch (w, cr) - Double Click
+selectCodeEditor("tb_not_gate_dff.v", 224, 289); // ch (w, cr)
+selectCodeEditor("tb_not_gate_dff.v", 252, 289); // ch (w, cr)
+selectCodeEditor("tb_not_gate_dff.v", 342, 268); // ch (w, cr)
+// Elapsed time: 19 seconds
+selectCodeEditor("tb_not_gate_dff.v", 302, 412); // ch (w, cr)
+selectCodeEditor("tb_not_gate_dff.v", 190, 423); // ch (w, cr)
+selectCodeEditor("tb_not_gate_dff.v", 247, 425); // ch (w, cr)
+selectCodeEditor("tb_not_gate_dff.v", 211, 423); // ch (w, cr)
+selectCodeEditor("tb_not_gate_dff.v", 219, 427); // ch (w, cr)
+selectCodeEditor("tb_not_gate_dff.v", 210, 346); // ch (w, cr)
+selectCodeEditor("tb_not_gate_dff.v", 175, 205); // ch (w, cr)
+selectCodeEditor("tb_not_gate_dff.v", 322, 393); // ch (w, cr)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "not_gate_dff.v", 1); // i (h, cr)
+selectCodeEditor("not_gate_dff.v", 429, 209); // ch (w, cr)
+selectCodeEditor("not_gate_dff.v", 268, 286); // ch (w, cr)
+selectCodeEditor("not_gate_dff.v", 253, 345); // ch (w, cr)
+selectCodeEditor("not_gate_dff.v", 301, 346); // ch (w, cr)
+selectCodeEditor("not_gate_dff.v", 185, 289); // ch (w, cr)
+selectCodeEditor("not_gate_dff.v", 241, 335); // ch (w, cr)
+selectCodeEditor("not_gate_dff.v", 78, 256); // ch (w, cr)
+selectCodeEditor("not_gate_dff.v", 245, 356); // ch (w, cr)
+selectCodeEditor("not_gate_dff.v", 52, 251); // ch (w, cr)
+selectCodeEditor("not_gate_dff.v", 1, 252); // ch (w, cr)
+selectCodeEditor("not_gate_dff.v", 259, 349); // ch (w, cr)
+selectCodeEditor("not_gate_dff.v", 369, 372); // ch (w, cr)
+selectCodeEditor("not_gate_dff.v", 384, 492); // ch (w, cr)
+selectCodeEditor("not_gate_dff.v", 53, 490); // ch (w, cr)
+selectCodeEditor("not_gate_dff.v", 58, 483); // ch (w, cr)
+selectCodeEditor("not_gate_dff.v", 365, 473); // ch (w, cr)
+selectCodeEditor("not_gate_dff.v", 382, 473); // ch (w, cr)
+selectCodeEditor("not_gate_dff.v", 64, 480); // ch (w, cr)
+selectCodeEditor("not_gate_dff.v", 371, 469); // ch (w, cr)
+selectCodeEditor("not_gate_dff.v", 52, 471); // ch (w, cr)
+selectCodeEditor("not_gate_dff.v", 57, 474); // ch (w, cr)
+selectCodeEditor("not_gate_dff.v", 461, 470); // ch (w, cr)
+selectCodeEditor("not_gate_dff.v", 428, 377); // ch (w, cr)
+// [GUI Memory]: 120 MB (+844kb) [00:05:22]
+// Elapsed time: 17 seconds
+selectCodeEditor("not_gate_dff.v", 405, 357); // ch (w, cr)
+selectCodeEditor("not_gate_dff.v", 400, 387); // ch (w, cr)
+// Elapsed time: 31 seconds
+selectCodeEditor("not_gate_dff.v", 427, 354); // ch (w, cr)
+selectCodeEditor("not_gate_dff.v", 430, 380); // ch (w, cr)
+selectCodeEditor("not_gate_dff.v", 429, 395); // ch (w, cr)
+selectCodeEditor("not_gate_dff.v", 424, 401); // ch (w, cr)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("not_gate_dff.v", 278, 409); // ch (w, cr)
+selectCodeEditor("not_gate_dff.v", 329, 237); // ch (w, cr)
+selectCodeEditor("not_gate_dff.v", 238, 408); // ch (w, cr)
+selectCodeEditor("not_gate_dff.v", 193, 171); // ch (w, cr)
+selectCodeEditor("not_gate_dff.v", 261, 433); // ch (w, cr)
+selectCodeEditor("not_gate_dff.v", 270, 411); // ch (w, cr)
+// Elapsed time: 33 seconds
+selectCodeEditor("not_gate_dff.v", 776, 51); // ch (w, cr)
+selectCodeEditor("not_gate_dff.v", 13, 51); // ch (w, cr)
+selectCodeEditor("not_gate_dff.v", 7, 52); // ch (w, cr)
+selectCodeEditor("not_gate_dff.v", 815, 53); // ch (w, cr)
+// Elapsed time: 12 seconds
+selectCodeEditor("not_gate_dff.v", 412, 188); // ch (w, cr)
+// Elapsed time: 10 seconds
+selectCodeEditor("not_gate_dff.v", 417, 208); // ch (w, cr)
+selectCodeEditor("not_gate_dff.v", 424, 209); // ch (w, cr)
+selectCodeEditor("not_gate_dff.v", 302, 214); // ch (w, cr)
+selectCodeEditor("not_gate_dff.v", 374, 212); // ch (w, cr)
+// Elapsed time: 14 seconds
+selectCodeEditor("not_gate_dff.v", 480, 333); // ch (w, cr)
+selectCodeEditor("not_gate_dff.v", 481, 351); // ch (w, cr)
+selectCodeEditor("not_gate_dff.v", 240, 289); // ch (w, cr)
+selectCodeEditor("not_gate_dff.v", 277, 372); // ch (w, cr)
+selectCodeEditor("not_gate_dff.v", 189, 273); // ch (w, cr)
+selectCodeEditor("not_gate_dff.v", 112, 109); // ch (w, cr)
+selectCodeEditor("not_gate_dff.v", 302, 356); // ch (w, cr)
+selectCodeEditor("not_gate_dff.v", 380, 478); // ch (w, cr)
+selectCodeEditor("not_gate_dff.v", 206, 448); // ch (w, cr)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// WARNING: HTimer (FileMgr Design Graph Update Timer) is taking 708ms to process. Increasing delay to 4000 ms.
+selectCodeEditor("not_gate_dff.v", 242, 387); // ch (w, cr)
+// Elapsed time: 11 seconds
+selectCodeEditor("not_gate_dff.v", 303, 254); // ch (w, cr)
+selectCodeEditor("not_gate_dff.v", 444, 233); // ch (w, cr)
+selectCodeEditor("not_gate_dff.v", 279, 73); // ch (w, cr)
+selectCodeEditor("not_gate_dff.v", 376, 453); // ch (w, cr)
+selectCodeEditor("not_gate_dff.v", 416, 494); // ch (w, cr)
+selectCodeEditor("not_gate_dff.v", 238, 190); // ch (w, cr)
+selectCodeEditor("not_gate_dff.v", 522, 478); // ch (w, cr)
+selectCodeEditor("not_gate_dff.v", 471, 311); // ch (w, cr)
+selectCodeEditor("not_gate_dff.v", 501, 257); // ch (w, cr)
+selectCodeEditor("not_gate_dff.v", 567, 459); // ch (w, cr)
+selectCodeEditor("not_gate_dff.v", 562, 495); // ch (w, cr)
+selectCodeEditor("not_gate_dff.v", 522, 244); // ch (w, cr)
+selectCodeEditor("not_gate_dff.v", 194, 297); // ch (w, cr)
+selectCodeEditor("not_gate_dff.v", 364, 260); // ch (w, cr)
+selectCodeEditor("not_gate_dff.v", 278, 225); // ch (w, cr)
+selectCodeEditor("not_gate_dff.v", 159, 142); // ch (w, cr)
+selectCodeEditor("not_gate_dff.v", 448, 489); // ch (w, cr)
+selectCodeEditor("not_gate_dff.v", 307, 250); // ch (w, cr)
+selectCodeEditor("not_gate_dff.v", 435, 286); // ch (w, cr)
+selectCodeEditor("not_gate_dff.v", 428, 220); // ch (w, cr)
+selectCodeEditor("not_gate_dff.v", 447, 188); // ch (w, cr)
+selectCodeEditor("not_gate_dff.v", 571, 402); // ch (w, cr)
+selectCodeEditor("not_gate_dff.v", 628, 495); // ch (w, cr)
+selectCodeEditor("not_gate_dff.v", 400, 416); // ch (w, cr)
+selectCodeEditor("not_gate_dff.v", 395, 396); // ch (w, cr)
+selectCodeEditor("not_gate_dff.v", 385, 341); // ch (w, cr)
+selectCodeEditor("not_gate_dff.v", 378, 394); // ch (w, cr)
+selectCodeEditor("not_gate_dff.v", 363, 334); // ch (w, cr)
+selectCodeEditor("not_gate_dff.v", 376, 337); // ch (w, cr)
+selectCodeEditor("not_gate_dff.v", 489, 412); // ch (w, cr)
+selectCodeEditor("not_gate_dff.v", 689, 469); // ch (w, cr)
+selectCodeEditor("not_gate_dff.v", 687, 308); // ch (w, cr)
+selectCodeEditor("not_gate_dff.v", 725, 242); // ch (w, cr)
+selectCodeEditor("not_gate_dff.v", 759, 496); // ch (w, cr)
+selectCodeEditor("not_gate_dff.v", 163, 383); // ch (w, cr)
+selectCodeEditor("not_gate_dff.v", 222, 381); // ch (w, cr)
+selectCodeEditor("not_gate_dff.v", 392, 489); // ch (w, cr)
+selectCodeEditor("not_gate_dff.v", 317, 374); // ch (w, cr)
+selectCodeEditor("not_gate_dff.v", 405, 288); // ch (w, cr)
+// Elapsed time: 12 seconds
+selectCodeEditor("not_gate_dff.v", 324, 354); // ch (w, cr)
+selectCodeEditor("not_gate_dff.v", 376, 304); // ch (w, cr)
+selectCodeEditor("not_gate_dff.v", 421, 379); // ch (w, cr)
+selectCodeEditor("not_gate_dff.v", 436, 434); // ch (w, cr)
+selectCodeEditor("not_gate_dff.v", 403, 220); // ch (w, cr)
+selectCodeEditor("not_gate_dff.v", 500, 378); // ch (w, cr)
+selectCodeEditor("not_gate_dff.v", 336, 414); // ch (w, cr)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("not_gate_dff.v", 173, 491); // ch (w, cr)
+selectCodeEditor("not_gate_dff.v", 392, 543); // ch (w, cr)
+selectCodeEditor("not_gate_dff.v", 384, 107); // ch (w, cr)
+selectCodeEditor("not_gate_dff.v", 425, 36); // ch (w, cr)
+selectCodeEditor("not_gate_dff.v", 521, 517); // ch (w, cr)
+selectCodeEditor("not_gate_dff.v", 380, 556); // ch (w, cr)
+selectCodeEditor("not_gate_dff.v", 418, 157); // ch (w, cr)
+selectCodeEditor("not_gate_dff.v", 227, 207); // ch (w, cr)
+selectCodeEditor("not_gate_dff.v", 251, 214); // ch (w, cr)
+selectCodeEditor("not_gate_dff.v", 283, 232); // ch (w, cr)
+selectCodeEditor("not_gate_dff.v", 305, 567); // ch (w, cr)
+selectCodeEditor("not_gate_dff.v", 249, 99); // ch (w, cr)
+selectCodeEditor("not_gate_dff.v", 274, 169); // ch (w, cr)
+selectCodeEditor("not_gate_dff.v", 190, 301); // ch (w, cr)
+selectCodeEditor("not_gate_dff.v", 209, 279); // ch (w, cr)
+selectCodeEditor("not_gate_dff.v", 168, 276); // ch (w, cr)
+selectCodeEditor("not_gate_dff.v", 142, 295); // ch (w, cr)
+selectCodeEditor("not_gate_dff.v", 150, 302); // ch (w, cr)
+selectCodeEditor("not_gate_dff.v", 175, 569); // ch (w, cr)
+selectCodeEditor("not_gate_dff.v", 244, 552); // ch (w, cr)
+selectCodeEditor("not_gate_dff.v", 229, 566); // ch (w, cr)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "tb_not_gate_dff.v", 2); // i (h, cr)
+selectCodeEditor("tb_not_gate_dff.v", 321, 437); // ch (w, cr)
+selectCodeEditor("tb_not_gate_dff.v", 326, 459); // ch (w, cr)
+selectCodeEditor("tb_not_gate_dff.v", 220, 301); // ch (w, cr)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation, Run Simulation]", 10, false); // u (O, cr)
+selectMenuItem(PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL, "Run Behavioral Simulation"); // ai (ao, cr)
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL
+// e (cr):  Run Simulation : addNotify
+// TclEventType: LAUNCH_SIM
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: launch_simulation 
+// Tcl Message: Command: launch_simulation  
+// Tcl Message: INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/2024_CA_LAB/LAB/week03/lab02_not_gate_dff/sim/xsim/project_1/project_1.sim/sim_1/behav/xsim' INFO: [SIM-utils-51] Simulation object is 'sim_1' INFO: [SIM-utils-54] Inspecting design source files for 'tb_not_gate_dff' in fileset 'sim_1'... INFO: [USF-XSim-97] Finding global include files... INFO: [USF-XSim-98] Fetching design files from 'sim_1'... INFO: [USF-XSim-2] XSim::Compile design 
+// HMemoryUtils.trashcanNow. Engine heap size: 972 MB. GUI used memory: 87 MB. Current time: 3/22/24, 5:45:42 PM KST
+// Tcl Message: INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/2024_CA_LAB/LAB/week03/lab02_not_gate_dff/sim/xsim/project_1/project_1.sim/sim_1/behav/xsim' 
+// Tcl Message: "xvlog --incr --relax -prj tb_not_gate_dff_vlog.prj" 
+// TclEventType: LAUNCH_SIM_LOG
+// Tcl Message: INFO: [VRFC 10-2263] Analyzing Verilog file "C:/2024_CA_LAB/LAB/week03/lab02_not_gate_dff/sim/xsim/project_1/project_1.srcs/sources_1/new/not_gate_dff.v" into library xil_defaultlib INFO: [VRFC 10-311] analyzing module not_gate_dff INFO: [VRFC 10-2263] Analyzing Verilog file "C:/2024_CA_LAB/LAB/week03/lab02_not_gate_dff/sim/xsim/project_1/project_1.srcs/sources_1/new/tb_not_gate_dff.v" into library xil_defaultlib INFO: [VRFC 10-311] analyzing module tb_not_gate_dff 
+// Tcl Message: run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:05 . Memory (MB): peak = 998.492 ; gain = 0.000 
+// Tcl Message: INFO: [USF-XSim-69] 'compile' step finished in '5' seconds INFO: [USF-XSim-3] XSim::Elaborate design INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/2024_CA_LAB/LAB/week03/lab02_not_gate_dff/sim/xsim/project_1/project_1.sim/sim_1/behav/xsim' 
+// Tcl Message: "xelab -wto a6cd3afbd2d1417899949f21f39c15b0 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_not_gate_dff_behav xil_defaultlib.tb_not_gate_dff xil_defaultlib.glbl -log elaborate.log" 

@@ -1,0 +1,6 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/2024_CA_LAB/LAB/week05/lab00_32bit_RCA/src/rtl/full_adder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module full_adder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/2024_CA_LAB/LAB/week05/lab00_32bit_RCA/src/rtl/ripple_carry_adder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ripple_carry_adder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/2024_CA_LAB/LAB/week05/lab00_32bit_RCA/testbench/tb_ripple_carry_adder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_ripple_carry_adder

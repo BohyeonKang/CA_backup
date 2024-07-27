@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="cpu_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="cpu_tb" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="3059000fs"></ZoomStartTime>
+      <ZoomEndTime time="3087801fs"></ZoomEndTime>
+      <Cursor1Time time="3150000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="257"></NameColumnWidth>
+      <ValueColumnWidth column_width="341"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="20" />
+   <wvobject fp_name="/cpu_tb/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/rst" type="logic">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/timeout_cycle" type="array">
+      <obj_property name="ElementShortName">timeout_cycle[31:0]</obj_property>
+      <obj_property name="ObjectShortName">timeout_cycle[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/cycle" type="array">
+      <obj_property name="ElementShortName">cycle[31:0]</obj_property>
+      <obj_property name="ObjectShortName">cycle[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/done" type="logic">
+      <obj_property name="ElementShortName">done</obj_property>
+      <obj_property name="ObjectShortName">done</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/current_test_id" type="array">
+      <obj_property name="ElementShortName">current_test_id[31:0]</obj_property>
+      <obj_property name="ObjectShortName">current_test_id[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/current_test_type" type="array">
+      <obj_property name="ElementShortName">current_test_type[255:0]</obj_property>
+      <obj_property name="ObjectShortName">current_test_type[255:0]</obj_property>
+      <obj_property name="Radix">ASCIIRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/current_output" type="array">
+      <obj_property name="ElementShortName">current_output[31:0]</obj_property>
+      <obj_property name="ObjectShortName">current_output[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/current_result" type="array">
+      <obj_property name="ElementShortName">current_result[31:0]</obj_property>
+      <obj_property name="ObjectShortName">current_result[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/all_tests_passed" type="logic">
+      <obj_property name="ElementShortName">all_tests_passed</obj_property>
+      <obj_property name="ObjectShortName">all_tests_passed</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/num_cycles" type="array">
+      <obj_property name="ElementShortName">num_cycles[31:0]</obj_property>
+      <obj_property name="ObjectShortName">num_cycles[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/num_insts" type="array">
+      <obj_property name="ElementShortName">num_insts[31:0]</obj_property>
+      <obj_property name="ObjectShortName">num_insts[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/CPU/icpu/BranchD" type="logic">
+      <obj_property name="ElementShortName">BranchD</obj_property>
+      <obj_property name="ObjectShortName">BranchD</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/CPU/icpu/PCSrcD" type="logic">
+      <obj_property name="ElementShortName">PCSrcD</obj_property>
+      <obj_property name="ObjectShortName">PCSrcD</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/CPU/icpu/EqualD" type="logic">
+      <obj_property name="ElementShortName">EqualD</obj_property>
+      <obj_property name="ObjectShortName">EqualD</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/CPU/icpu/ForwardAD" type="array">
+      <obj_property name="ElementShortName">ForwardAD[1:0]</obj_property>
+      <obj_property name="ObjectShortName">ForwardAD[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/CPU/icpu/ForwardBD" type="array">
+      <obj_property name="ElementShortName">ForwardBD[1:0]</obj_property>
+      <obj_property name="ObjectShortName">ForwardBD[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/CPU/icpu/tmpD1" type="array">
+      <obj_property name="ElementShortName">tmpD1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">tmpD1[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/CPU/icpu/tmpD2" type="array">
+      <obj_property name="ElementShortName">tmpD2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">tmpD2[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="group68" type="group">
+      <obj_property name="label">RF</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/cpu_tb/CPU/icpu/rf/x0" type="array">
+         <obj_property name="ElementShortName">x0[31:0]</obj_property>
+         <obj_property name="ObjectShortName">x0[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cpu_tb/CPU/icpu/rf/x1" type="array">
+         <obj_property name="ElementShortName">x1[31:0]</obj_property>
+         <obj_property name="ObjectShortName">x1[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cpu_tb/CPU/icpu/rf/x2" type="array">
+         <obj_property name="ElementShortName">x2[31:0]</obj_property>
+         <obj_property name="ObjectShortName">x2[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cpu_tb/CPU/icpu/rf/x3" type="array">
+         <obj_property name="ElementShortName">x3[31:0]</obj_property>
+         <obj_property name="ObjectShortName">x3[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cpu_tb/CPU/icpu/rf/x4" type="array">
+         <obj_property name="ElementShortName">x4[31:0]</obj_property>
+         <obj_property name="ObjectShortName">x4[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cpu_tb/CPU/icpu/rf/x5" type="array">
+         <obj_property name="ElementShortName">x5[31:0]</obj_property>
+         <obj_property name="ObjectShortName">x5[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cpu_tb/CPU/icpu/rf/x6" type="array">
+         <obj_property name="ElementShortName">x6[31:0]</obj_property>
+         <obj_property name="ObjectShortName">x6[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cpu_tb/CPU/icpu/rf/x7" type="array">
+         <obj_property name="ElementShortName">x7[31:0]</obj_property>
+         <obj_property name="ObjectShortName">x7[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cpu_tb/CPU/icpu/rf/x8" type="array">
+         <obj_property name="ElementShortName">x8[31:0]</obj_property>
+         <obj_property name="ObjectShortName">x8[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cpu_tb/CPU/icpu/rf/x9" type="array">
+         <obj_property name="ElementShortName">x9[31:0]</obj_property>
+         <obj_property name="ObjectShortName">x9[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cpu_tb/CPU/icpu/rf/x10" type="array">
+         <obj_property name="ElementShortName">x10[31:0]</obj_property>
+         <obj_property name="ObjectShortName">x10[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cpu_tb/CPU/icpu/rf/x11" type="array">
+         <obj_property name="ElementShortName">x11[31:0]</obj_property>
+         <obj_property name="ObjectShortName">x11[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cpu_tb/CPU/icpu/rf/x12" type="array">
+         <obj_property name="ElementShortName">x12[31:0]</obj_property>
+         <obj_property name="ObjectShortName">x12[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cpu_tb/CPU/icpu/rf/x13" type="array">
+         <obj_property name="ElementShortName">x13[31:0]</obj_property>
+         <obj_property name="ObjectShortName">x13[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cpu_tb/CPU/icpu/rf/x14" type="array">
+         <obj_property name="ElementShortName">x14[31:0]</obj_property>
+         <obj_property name="ObjectShortName">x14[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cpu_tb/CPU/icpu/rf/x15" type="array">
+         <obj_property name="ElementShortName">x15[31:0]</obj_property>
+         <obj_property name="ObjectShortName">x15[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cpu_tb/CPU/icpu/rf/x16" type="array">
+         <obj_property name="ElementShortName">x16[31:0]</obj_property>
+         <obj_property name="ObjectShortName">x16[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cpu_tb/CPU/icpu/rf/x17" type="array">
+         <obj_property name="ElementShortName">x17[31:0]</obj_property>
+         <obj_property name="ObjectShortName">x17[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cpu_tb/CPU/icpu/rf/x18" type="array">
+         <obj_property name="ElementShortName">x18[31:0]</obj_property>
+         <obj_property name="ObjectShortName">x18[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cpu_tb/CPU/icpu/rf/x19" type="array">
+         <obj_property name="ElementShortName">x19[31:0]</obj_property>
+         <obj_property name="ObjectShortName">x19[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cpu_tb/CPU/icpu/rf/x20" type="array">
+         <obj_property name="ElementShortName">x20[31:0]</obj_property>
+         <obj_property name="ObjectShortName">x20[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cpu_tb/CPU/icpu/rf/x21" type="array">
+         <obj_property name="ElementShortName">x21[31:0]</obj_property>
+         <obj_property name="ObjectShortName">x21[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cpu_tb/CPU/icpu/rf/x22" type="array">
+         <obj_property name="ElementShortName">x22[31:0]</obj_property>
+         <obj_property name="ObjectShortName">x22[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cpu_tb/CPU/icpu/rf/x23" type="array">
+         <obj_property name="ElementShortName">x23[31:0]</obj_property>
+         <obj_property name="ObjectShortName">x23[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cpu_tb/CPU/icpu/rf/x24" type="array">
+         <obj_property name="ElementShortName">x24[31:0]</obj_property>
+         <obj_property name="ObjectShortName">x24[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cpu_tb/CPU/icpu/rf/x25" type="array">
+         <obj_property name="ElementShortName">x25[31:0]</obj_property>
+         <obj_property name="ObjectShortName">x25[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cpu_tb/CPU/icpu/rf/x26" type="array">
+         <obj_property name="ElementShortName">x26[31:0]</obj_property>
+         <obj_property name="ObjectShortName">x26[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cpu_tb/CPU/icpu/rf/x27" type="array">
+         <obj_property name="ElementShortName">x27[31:0]</obj_property>
+         <obj_property name="ObjectShortName">x27[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cpu_tb/CPU/icpu/rf/x28" type="array">
+         <obj_property name="ElementShortName">x28[31:0]</obj_property>
+         <obj_property name="ObjectShortName">x28[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cpu_tb/CPU/icpu/rf/x29" type="array">
+         <obj_property name="ElementShortName">x29[31:0]</obj_property>
+         <obj_property name="ObjectShortName">x29[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cpu_tb/CPU/icpu/rf/x30" type="array">
+         <obj_property name="ElementShortName">x30[31:0]</obj_property>
+         <obj_property name="ObjectShortName">x30[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cpu_tb/CPU/icpu/rf/x31" type="array">
+         <obj_property name="ElementShortName">x31[31:0]</obj_property>
+         <obj_property name="ObjectShortName">x31[31:0]</obj_property>
+      </wvobject>
+   </wvobject>
+</wave_config>

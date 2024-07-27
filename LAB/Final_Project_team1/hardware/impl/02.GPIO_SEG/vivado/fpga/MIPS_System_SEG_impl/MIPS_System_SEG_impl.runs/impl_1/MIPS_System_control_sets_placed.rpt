@@ -1,0 +1,155 @@
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+----------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.2 (win64) Build 2708876 Wed Nov  6 21:40:23 MST 2019
+| Date         : Fri Jun  7 17:15:31 2024
+| Host         : DESKTOP-FA97QT1 running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file MIPS_System_control_sets_placed.rpt
+| Design       : MIPS_System
+| Device       : xc7a75t
+----------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Histogram
+3. Flip-Flop Distribution
+4. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Total control sets                                       |    77 |
+|    Minimum number of control sets                        |    77 |
+|    Addition due to synthesis replication                 |     0 |
+|    Addition due to physical synthesis replication        |     0 |
+| Unused register locations in slices containing registers |    52 |
++----------------------------------------------------------+-------+
+* Control sets can be merged at opt_design using control_set_merge or merge_equivalent_drivers
+** Run report_qor_suggestions for automated merging and remapping suggestions
+
+
+2. Histogram
+------------
+
++--------------------+-------+
+|       Fanout       | Count |
++--------------------+-------+
+| Total control sets |    77 |
+| >= 0 to < 4        |     1 |
+| >= 4 to < 6        |     4 |
+| >= 6 to < 8        |     1 |
+| >= 8 to < 10       |     1 |
+| >= 10 to < 12      |     1 |
+| >= 12 to < 14      |     0 |
+| >= 14 to < 16      |     0 |
+| >= 16              |    69 |
++--------------------+-------+
+* Control sets can be remapped at either synth_design or opt_design
+
+
+3. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |              23 |            9 |
+| No           | No                    | Yes                    |             482 |          208 |
+| No           | Yes                   | No                     |              16 |            4 |
+| Yes          | No                    | No                     |             992 |          482 |
+| Yes          | No                    | Yes                    |             147 |           84 |
+| Yes          | Yes                   | No                     |               0 |            0 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+4. Detailed Control Set Information
+-----------------------------------
+
++-----------------------+------------------------------------------------------+-----------------------------------------+------------------+----------------+
+|      Clock Signal     |                     Enable Signal                    |             Set/Reset Signal            | Slice Load Count | Bel Load Count |
++-----------------------+------------------------------------------------------+-----------------------------------------+------------------+----------------+
+|  CLOCK_100_IBUF_BUFG  |                                                      |                                         |                1 |              1 |
+|  CLOCK_100_IBUF_BUFG  | icpu/u_EXE_MEM_pipe_reg/o_ALUOut_reg[2]_rep__29_2[0] | icpu/u_EXE_MEM_pipe_reg/reset_ff_reg    |                1 |              4 |
+|  CLOCK_100_IBUF_BUFG  | icpu/u_EXE_MEM_pipe_reg/o_ALUOut_reg[2]_rep__29_5[0] | icpu/u_EXE_MEM_pipe_reg/reset_ff_reg    |                1 |              4 |
+|  CLOCK_100_IBUF_BUFG  | icpu/u_EXE_MEM_pipe_reg/o_ALUOut_reg[2]_rep__29_3[0] | icpu/u_EXE_MEM_pipe_reg/reset_ff_reg    |                1 |              4 |
+|  CLOCK_100_IBUF_BUFG  | icpu/u_EXE_MEM_pipe_reg/o_ALUOut_reg[2]_rep__29_4[0] | icpu/u_EXE_MEM_pipe_reg/reset_ff_reg    |                1 |              4 |
+|  count_reg[1]_i_3_n_0 |                                                      | u_GPIO/u_seg7driver/state_reg_n_0       |                1 |              7 |
+|  count_reg[1]_i_3_n_0 |                                                      | u_GPIO/u_seg7driver/count               |                3 |              9 |
+|  CLOCK_100_IBUF_BUFG  | icpu/u_EXE_MEM_pipe_reg/o_ALUOut_reg[2]_rep__29_1[0] | icpu/u_EXE_MEM_pipe_reg/reset_ff_reg    |                3 |             10 |
+|  count_reg[1]_i_3_n_0 |                                                      |                                         |                8 |             22 |
+|  CLOCK_100_IBUF_BUFG  | icpu/u_MEM_WB_pipe_reg/o_WriteReg_reg[1]_5[0]        |                                         |               10 |             32 |
+|  CLOCK_100_IBUF_BUFG  | icpu/u_MEM_WB_pipe_reg/o_WriteReg_reg[2]_3[0]        |                                         |               14 |             32 |
+|  CLOCK_100_IBUF_BUFG  | icpu/u_MEM_WB_pipe_reg/o_WriteReg_reg[3]_0[0]        |                                         |               15 |             32 |
+|  CLOCK_100_IBUF_BUFG  | icpu/u_MEM_WB_pipe_reg/o_WriteReg_reg[1]_6[0]        |                                         |               10 |             32 |
+|  CLOCK_100_IBUF_BUFG  | icpu/u_MEM_WB_pipe_reg/o_WriteReg_reg[1]_7[0]        |                                         |               20 |             32 |
+|  CLOCK_100_IBUF_BUFG  | icpu/u_MEM_WB_pipe_reg/o_WriteReg_reg[1]_9[0]        |                                         |               13 |             32 |
+|  CLOCK_100_IBUF_BUFG  | icpu/u_MEM_WB_pipe_reg/o_WriteReg_reg[2]_1[0]        |                                         |               12 |             32 |
+|  CLOCK_100_IBUF_BUFG  | icpu/u_MEM_WB_pipe_reg/o_WriteReg_reg[2]_6[0]        |                                         |               18 |             32 |
+|  CLOCK_100_IBUF_BUFG  | icpu/u_MEM_WB_pipe_reg/o_WriteReg_reg[1]_3[0]        |                                         |               17 |             32 |
+|  CLOCK_100_IBUF_BUFG  | icpu/u_MEM_WB_pipe_reg/o_WriteReg_reg[0]_1[0]        |                                         |               13 |             32 |
+|  CLOCK_100_IBUF_BUFG  | icpu/u_MEM_WB_pipe_reg/o_WriteReg_reg[0]_6[0]        |                                         |               14 |             32 |
+|  CLOCK_100_IBUF_BUFG  | icpu/u_MEM_WB_pipe_reg/o_WriteReg_reg[1]_2[0]        |                                         |               15 |             32 |
+|  CLOCK_100_IBUF_BUFG  | icpu/u_MEM_WB_pipe_reg/o_WriteReg_reg[1]_4[0]        |                                         |               20 |             32 |
+|  CLOCK_100_IBUF_BUFG  | icpu/u_MEM_WB_pipe_reg/o_WriteReg_reg[1]_8[0]        |                                         |               23 |             32 |
+|  CLOCK_100_IBUF_BUFG  | icpu/u_MEM_WB_pipe_reg/o_WriteReg_reg[2]_0[0]        |                                         |               15 |             32 |
+|  CLOCK_100_IBUF_BUFG  | icpu/u_MEM_WB_pipe_reg/o_WriteReg_reg[2]_4[0]        |                                         |               13 |             32 |
+|  CLOCK_100_IBUF_BUFG  | icpu/u_MEM_WB_pipe_reg/o_WriteReg_reg[2]_5[0]        |                                         |               24 |             32 |
+|  CLOCK_100_IBUF_BUFG  | icpu/u_MEM_WB_pipe_reg/o_WriteReg_reg[3]_1[0]        |                                         |               14 |             32 |
+|  CLOCK_100_IBUF_BUFG  | icpu/u_MEM_WB_pipe_reg/reset_ff_reg[0]               |                                         |               14 |             32 |
+|  CLOCK_100_IBUF_BUFG  | icpu/u_MEM_WB_pipe_reg/reset_ff_reg_1[0]             |                                         |               20 |             32 |
+|  CLOCK_100_IBUF_BUFG  | icpu/u_MEM_WB_pipe_reg/reset_ff_reg_2[0]             |                                         |               19 |             32 |
+|  CLOCK_100_IBUF_BUFG  | icpu/u_MEM_WB_pipe_reg/reset_ff_reg_0[0]             |                                         |               12 |             32 |
+|  CLOCK_100_IBUF_BUFG  | icpu/u_MEM_WB_pipe_reg/o_WriteReg_reg[2]_2[0]        | icpu/u_EXE_MEM_pipe_reg/reset_ff_reg    |                9 |             32 |
+|  CLOCK_100_IBUF_BUFG  | icpu/u_MEM_WB_pipe_reg/o_WriteReg_reg[0]_0[0]        |                                         |               17 |             32 |
+|  CLOCK_100_IBUF_BUFG  | icpu/u_MEM_WB_pipe_reg/o_WriteReg_reg[0]_2[0]        |                                         |               14 |             32 |
+|  CLOCK_100_IBUF_BUFG  | icpu/u_MEM_WB_pipe_reg/o_WriteReg_reg[0]_7[0]        |                                         |               15 |             32 |
+|  CLOCK_100_IBUF_BUFG  | icpu/u_MEM_WB_pipe_reg/o_WriteReg_reg[1]_0[0]        |                                         |               15 |             32 |
+|  CLOCK_100_IBUF_BUFG  | icpu/u_MEM_WB_pipe_reg/o_WriteReg_reg[1]_1[0]        |                                         |               13 |             32 |
+|  CLOCK_100_IBUF_BUFG  | icpu/u_MEM_WB_pipe_reg/reset_ff_reg_3[0]             |                                         |               18 |             32 |
+|  CLOCK_100_IBUF_BUFG  | icpu/u_MEM_WB_pipe_reg/reset_ff_reg_4[0]             |                                         |               14 |             32 |
+|  CLOCK_100_IBUF_BUFG  | icpu/u_MEM_WB_pipe_reg/E[0]                          |                                         |               13 |             32 |
+|  CLOCK_100_IBUF_BUFG  | icpu/u_MEM_WB_pipe_reg/o_WriteReg_reg[0]_3[0]        |                                         |               18 |             32 |
+|  CLOCK_100_IBUF_BUFG  | icpu/u_ID_EXE_pipe_reg/o_MemtoReg_reg_0              | icpu/u_EXE_MEM_pipe_reg/reset_ff_reg    |               32 |             43 |
+|  CLOCK_100_IBUF_BUFG  | icpu/u_EXE_MEM_pipe_reg/E[0]                         | icpu/u_EXE_MEM_pipe_reg/reset_ff_reg    |               36 |             46 |
+|  CLOCK_100_IBUF_BUFG  |                                                      | icpu/u_ID_EXE_pipe_reg/o_ALUSrc_i_2_n_0 |               47 |             98 |
+|  CLOCK_100_IBUF_BUFG  | icpu/u_EXE_MEM_pipe_reg/o_ALUOut_reg[11]_6           |                                         |               32 |            128 |
+|  CLOCK_100_IBUF_BUFG  | icpu/u_EXE_MEM_pipe_reg/o_ALUOut_reg[10]_2           |                                         |               32 |            128 |
+|  CLOCK_100_IBUF_BUFG  | icpu/u_EXE_MEM_pipe_reg/o_ALUOut_reg[10]_3           |                                         |               32 |            128 |
+|  CLOCK_100_IBUF_BUFG  | icpu/u_EXE_MEM_pipe_reg/o_ALUOut_reg[11]_2           |                                         |               32 |            128 |
+|  CLOCK_100_IBUF_BUFG  | icpu/u_EXE_MEM_pipe_reg/o_ALUOut_reg[10]_4           |                                         |               32 |            128 |
+|  CLOCK_100_IBUF_BUFG  | icpu/u_EXE_MEM_pipe_reg/o_ALUOut_reg[12]_1           |                                         |               32 |            128 |
+|  CLOCK_100_IBUF_BUFG  | icpu/u_EXE_MEM_pipe_reg/o_ALUOut_reg[10]_5           |                                         |               32 |            128 |
+|  CLOCK_100_IBUF_BUFG  | icpu/u_EXE_MEM_pipe_reg/o_ALUOut_reg[12]_2           |                                         |               32 |            128 |
+|  CLOCK_100_IBUF_BUFG  | icpu/u_EXE_MEM_pipe_reg/o_ALUOut_reg[13]_1           |                                         |               32 |            128 |
+|  CLOCK_100_IBUF_BUFG  | icpu/u_EXE_MEM_pipe_reg/o_ALUOut_reg[12]_3           |                                         |               32 |            128 |
+|  CLOCK_100_IBUF_BUFG  | icpu/u_EXE_MEM_pipe_reg/o_ALUOut_reg[13]_2           |                                         |               32 |            128 |
+|  CLOCK_100_IBUF_BUFG  | icpu/u_EXE_MEM_pipe_reg/o_ALUOut_reg[10]_6           |                                         |               32 |            128 |
+|  CLOCK_100_IBUF_BUFG  | icpu/u_EXE_MEM_pipe_reg/o_ALUOut_reg[12]_5           |                                         |               32 |            128 |
+|  CLOCK_100_IBUF_BUFG  | icpu/u_EXE_MEM_pipe_reg/o_ALUOut_reg[10]_1           |                                         |               32 |            128 |
+|  CLOCK_100_IBUF_BUFG  | icpu/u_EXE_MEM_pipe_reg/o_ALUOut_reg[11]_4           |                                         |               32 |            128 |
+|  CLOCK_100_IBUF_BUFG  | icpu/u_EXE_MEM_pipe_reg/o_ALUOut_reg[11]_3           |                                         |               32 |            128 |
+|  CLOCK_100_IBUF_BUFG  | icpu/u_EXE_MEM_pipe_reg/o_MemWrite_reg_4             |                                         |               32 |            128 |
+|  CLOCK_100_IBUF_BUFG  | icpu/u_EXE_MEM_pipe_reg/o_ALUOut_reg[9]_2            |                                         |               32 |            128 |
+|  CLOCK_100_IBUF_BUFG  | icpu/u_EXE_MEM_pipe_reg/o_MemWrite_reg_1             |                                         |               32 |            128 |
+|  CLOCK_100_IBUF_BUFG  | icpu/u_EXE_MEM_pipe_reg/o_MemWrite_reg_2             |                                         |               32 |            128 |
+|  CLOCK_100_IBUF_BUFG  | icpu/u_EXE_MEM_pipe_reg/o_MemWrite_reg_0             |                                         |               32 |            128 |
+|  CLOCK_100_IBUF_BUFG  | icpu/u_EXE_MEM_pipe_reg/o_ALUOut_reg[9]_5            |                                         |               32 |            128 |
+|  CLOCK_100_IBUF_BUFG  | icpu/u_EXE_MEM_pipe_reg/o_ALUOut_reg[9]_3            |                                         |               32 |            128 |
+|  CLOCK_100_IBUF_BUFG  | icpu/u_EXE_MEM_pipe_reg/o_ALUOut_reg[11]_5           |                                         |               32 |            128 |
+|  CLOCK_100_IBUF_BUFG  | icpu/u_EXE_MEM_pipe_reg/o_ALUOut_reg[9]_1            |                                         |               32 |            128 |
+|  CLOCK_100_IBUF_BUFG  | icpu/u_EXE_MEM_pipe_reg/o_ALUOut_reg[9]_4            |                                         |               32 |            128 |
+|  CLOCK_100_IBUF_BUFG  | icpu/u_EXE_MEM_pipe_reg/o_MemWrite_reg_3             |                                         |               32 |            128 |
+|  CLOCK_100_IBUF_BUFG  | icpu/u_EXE_MEM_pipe_reg/o_ALUOut_reg[10]_7           |                                         |               32 |            128 |
+|  CLOCK_100_IBUF_BUFG  | icpu/u_EXE_MEM_pipe_reg/o_ALUOut_reg[12]_4           |                                         |               32 |            128 |
+|  CLOCK_100_IBUF_BUFG  | icpu/u_EXE_MEM_pipe_reg/o_ALUOut_reg[11]_1           |                                         |               32 |            128 |
+|  CLOCK_100_IBUF_BUFG  | icpu/u_EXE_MEM_pipe_reg/o_ALUOut_reg[11]_7           |                                         |               32 |            128 |
+|  CLOCK_100_IBUF_BUFG  | icpu/u_EXE_MEM_pipe_reg/o_MemWrite_reg_5             |                                         |               32 |            128 |
+|  CLOCK_100_IBUF_BUFG  |                                                      | icpu/u_EXE_MEM_pipe_reg/reset_ff_reg    |              161 |            384 |
++-----------------------+------------------------------------------------------+-----------------------------------------+------------------+----------------+
+
+

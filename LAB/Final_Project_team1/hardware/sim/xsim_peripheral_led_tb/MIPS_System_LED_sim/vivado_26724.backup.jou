@@ -1,0 +1,19 @@
+#-----------------------------------------------------------
+# Vivado v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Sat Jun  1 15:26:07 2024
+# Process ID: 26724
+# Current directory: C:/2024_CA_LAB/LAB/Final_Project/hardware/sim/xsim_peripheral_led_tb/MIPS_System_LED_sim
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent8340 C:\2024_CA_LAB\LAB\Final_Project\hardware\sim\xsim_peripheral_led_tb\MIPS_System_LED_sim\MIPS_System_LED_sim.xpr
+# Log file: C:/2024_CA_LAB/LAB/Final_Project/hardware/sim/xsim_peripheral_led_tb/MIPS_System_LED_sim/vivado.log
+# Journal file: C:/2024_CA_LAB/LAB/Final_Project/hardware/sim/xsim_peripheral_led_tb/MIPS_System_LED_sim\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/2024_CA_LAB/LAB/Final_Project/hardware/sim/xsim_peripheral_led_tb/MIPS_System_LED_sim/MIPS_System_LED_sim.xpr
+update_compile_order -fileset sources_1
+set_property -name {xsim.simulate.runtime} -value {6000ns} -objects [get_filesets sim_1]
+launch_simulation
+open_wave_config C:/2024_CA_LAB/LAB/Final_Project/hardware/sim/xsim_peripheral_led_tb/peripheral_tests_tb_behav.wcfg
+source peripheral_tests_tb.tcl
+close_sim

@@ -1,0 +1,9 @@
+0.6
+2019.2
+Nov  6 2019
+21:57:16
+C:/2024_CA_LAB/LAB/week05/lab01_half_4bit_full_adder/sim/xsim/half_4bit_full_adder/half_4bit_full_adder.sim/sim_1/behav/xsim/glbl.v,1573089660,verilog,,,,glbl,,,,,,,,
+C:/2024_CA_LAB/LAB/week05/lab01_half_4bit_full_adder/src/rtl/full_adder.v,1712303928,verilog,,C:/2024_CA_LAB/LAB/week05/lab01_half_4bit_full_adder/src/rtl/full_adder_4bit.v,,full_adder,,,,,,,,
+C:/2024_CA_LAB/LAB/week05/lab01_half_4bit_full_adder/src/rtl/full_adder_4bit.v,1712303311,verilog,,C:/2024_CA_LAB/LAB/week05/lab01_half_4bit_full_adder/src/rtl/half_adder.v,,full_adder_4bit,,,,,,,,
+C:/2024_CA_LAB/LAB/week05/lab01_half_4bit_full_adder/src/rtl/half_adder.v,1712302417,verilog,,C:/2024_CA_LAB/LAB/week05/lab01_half_4bit_full_adder/testbench/testbench.v,,half_adder,,,,,,,,
+C:/2024_CA_LAB/LAB/week05/lab01_half_4bit_full_adder/testbench/testbench.v,1712303359,verilog,,,,tb_4bit_full_adder,,,,,,,,

@@ -1,0 +1,11 @@
+0.6
+2019.2
+Nov  6 2019
+21:57:16
+C:/2024_CA_LAB/solution/week05_sol/week05_student_sol/lab02_datapath/sim/xsim/lab02_datapath/lab02_datapath.sim/sim_1/behav/xsim/glbl.v,1573089660,verilog,,,,glbl,,,,,,,,
+C:/2024_CA_LAB/solution/week05_sol/week05_student_sol/lab02_datapath/src/rtl/datapath.v,1713511041,verilog,,C:/2024_CA_LAB/solution/week05_sol/week05_student_sol/lab02_datapath/src/rtl/full_adder.v,,datapath,,,,,,,,
+C:/2024_CA_LAB/solution/week05_sol/week05_student_sol/lab02_datapath/src/rtl/full_adder.v,1713511041,verilog,,C:/2024_CA_LAB/solution/week05_sol/week05_student_sol/lab02_datapath/src/rtl/full_adder_4bit.v,,full_adder,,,,,,,,
+C:/2024_CA_LAB/solution/week05_sol/week05_student_sol/lab02_datapath/src/rtl/full_adder_4bit.v,1713511041,verilog,,C:/2024_CA_LAB/solution/week05_sol/week05_student_sol/lab02_datapath/src/rtl/half_adder.v,,full_adder_4bit,,,,,,,,
+C:/2024_CA_LAB/solution/week05_sol/week05_student_sol/lab02_datapath/src/rtl/half_adder.v,1713511041,verilog,,C:/2024_CA_LAB/solution/week05_sol/week05_student_sol/lab02_datapath/src/rtl/mux_4_1.v,,half_adder,,,,,,,,
+C:/2024_CA_LAB/solution/week05_sol/week05_student_sol/lab02_datapath/src/rtl/mux_4_1.v,1713511041,verilog,,C:/2024_CA_LAB/solution/week05_sol/week05_student_sol/lab02_datapath/testbench/testbench.v,,multiplexer,,,,,,,,
+C:/2024_CA_LAB/solution/week05_sol/week05_student_sol/lab02_datapath/testbench/testbench.v,1713511041,verilog,,,,testbench,,,,,,,,

@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Webtalk v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Thu Apr  4 21:53:39 2024
+# Process ID: 27964
+# Current directory: C:/2024_CA_LAB/LAB/week04/review/full_adder_32bit/full_adder_32bit/full_adder_32bit.sim/sim_1/behav/xsim
+# Command line: wbtcv.exe -mode batch -source C:/2024_CA_LAB/LAB/week04/review/full_adder_32bit/full_adder_32bit/full_adder_32bit.sim/sim_1/behav/xsim/xsim.dir/tb_half_adder_1bit_behav/webtalk/xsim_webtalk.tcl -notrace
+# Log file: C:/2024_CA_LAB/LAB/week04/review/full_adder_32bit/full_adder_32bit/full_adder_32bit.sim/sim_1/behav/xsim/webtalk.log
+# Journal file: C:/2024_CA_LAB/LAB/week04/review/full_adder_32bit/full_adder_32bit/full_adder_32bit.sim/sim_1/behav/xsim\webtalk.jou
+#-----------------------------------------------------------
+source C:/2024_CA_LAB/LAB/week04/review/full_adder_32bit/full_adder_32bit/full_adder_32bit.sim/sim_1/behav/xsim/xsim.dir/tb_half_adder_1bit_behav/webtalk/xsim_webtalk.tcl -notrace

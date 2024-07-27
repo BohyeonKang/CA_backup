@@ -1,0 +1,25 @@
+//-----------------------------------------------------
+Instructions supported by the processor
+
+R-type : add, sub, and, or, slt 
+I-type : addi, lw, sw, beq
+
+//-----------------------------------------------------
+Write your code below for LED 
+
+0x0001_0000:  20102008	addi $s0, $zero, 16'h2008 //주소값 계산
+0x0001_0004:  20110333	addi $s1, $zero, 16'h0333 //데이터 값 계산
+0x0001_0008:  AE110000	sw $s1, 0($s0) //주소에 데이터 저장
+
+//-----------------------------------------------------
+//Description
+1) addi 명령어를 통해 0($zero register)과 LED에 해당하는 주소값을 더하여 레지스터 $s0에 저장한다.
+2) addi 명령어를 통해 0($zero register)과 LED에 넣을 데이터를 더하여 레지스터 $s1에 저장한다.
+3) sw 명령어를 통해 $s0 레지스터가 가리키는 주소에 $s1 레지스터에 저장된 데이터를 저장한다.
+
+(아래의 설명은 읽고 지우셔도 됩니다.)
+  - 명령어가 길어질 경우 주소를 추가하세요. 
+  - register number 대신 register name 사용 가능 
+    - register name: PPT MIPS register set에 따를 것 ($ 표시 없으면 점수 부여 X)
+    - EX) add x8, x20, x21 -> add $t0, $s4, $s5  
+

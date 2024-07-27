@@ -1,0 +1,13 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../../../../src/rtl/SEG7_LUT.v" \
+"../../../../../../../src/rtl/clock_divider.v" \
+"../../../../../../../src/rtl/seg7driver.v" \
+"../../../../../../../src/rtl/segment.v" \
+"../../../../../../../testbench/testbench.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

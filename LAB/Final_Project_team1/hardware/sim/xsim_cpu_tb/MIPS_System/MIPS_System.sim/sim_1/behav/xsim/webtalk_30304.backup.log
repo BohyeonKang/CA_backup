@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Webtalk v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Fri Jun  7 18:43:31 2024
+# Process ID: 30304
+# Current directory: C:/2024_CA_LAB/LAB/Final_Project_team1/hardware/sim/xsim_cpu_tb/MIPS_System/MIPS_System.sim/sim_1/behav/xsim
+# Command line: wbtcv.exe -mode batch -source C:/2024_CA_LAB/LAB/Final_Project_team1/hardware/sim/xsim_cpu_tb/MIPS_System/MIPS_System.sim/sim_1/behav/xsim/xsim.dir/cpu_tb_behav/webtalk/xsim_webtalk.tcl -notrace
+# Log file: C:/2024_CA_LAB/LAB/Final_Project_team1/hardware/sim/xsim_cpu_tb/MIPS_System/MIPS_System.sim/sim_1/behav/xsim/webtalk.log
+# Journal file: C:/2024_CA_LAB/LAB/Final_Project_team1/hardware/sim/xsim_cpu_tb/MIPS_System/MIPS_System.sim/sim_1/behav/xsim\webtalk.jou
+#-----------------------------------------------------------
+source C:/2024_CA_LAB/LAB/Final_Project_team1/hardware/sim/xsim_cpu_tb/MIPS_System/MIPS_System.sim/sim_1/behav/xsim/xsim.dir/cpu_tb_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Fri Jun  7 18:43:32 2024...

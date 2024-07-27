@@ -1,0 +1,6 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/2024_CA_LAB/LAB/week04/lab01_4x1mux/src/mux4to1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux4to1_if_else
+INFO: [VRFC 10-311] analyzing module mux4to1_case
+INFO: [VRFC 10-311] analyzing module mux4to1_conditional
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/2024_CA_LAB/LAB/week04/lab01_4x1mux/testbench/tb_mux4to1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_mux4to1

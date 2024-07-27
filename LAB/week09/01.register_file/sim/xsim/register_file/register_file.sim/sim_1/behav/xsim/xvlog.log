@@ -1,0 +1,4 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/2024_CA_LAB/LAB/week09/01.register_file/src/rtl/reg_file_async.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module reg_file_async
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/2024_CA_LAB/LAB/week09/01.register_file/testbench/testbench.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module testbench

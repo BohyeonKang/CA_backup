@@ -1,0 +1,6 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/2024_CA_LAB/LAB/week12_FPGA_led_sw_student/week12_FPGA_led_sw_student/lab01_led_on_using_sw_btn/src/rtl/led_on.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module led_on
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/2024_CA_LAB/LAB/week12_FPGA_led_sw_student/week12_FPGA_led_sw_student/lab01_led_on_using_sw_btn/testbench/testbench.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module testbench
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/2024_CA_LAB/LAB/week12_FPGA_led_sw_student/week12_FPGA_led_sw_student/lab01_led_on_using_sw_btn/sim/xsim/lab01_led_on_using_sw_btn/lab01_led_on_using_sw_btn.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl

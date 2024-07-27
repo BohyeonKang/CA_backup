@@ -1,0 +1,14 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../../../../src/rtl/datapath.v" \
+"../../../../../../../src/rtl/full_adder.v" \
+"../../../../../../../src/rtl/full_adder_4bit.v" \
+"../../../../../../../src/rtl/half_adder.v" \
+"../../../../../../../src/rtl/mux_4_1.v" \
+"../../../../../../../testbench/testbench_modified.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

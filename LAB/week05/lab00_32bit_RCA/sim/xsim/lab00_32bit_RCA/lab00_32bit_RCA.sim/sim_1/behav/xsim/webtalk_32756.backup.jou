@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Webtalk v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Fri Apr  5 16:17:23 2024
+# Process ID: 32756
+# Current directory: C:/2024_CA_LAB/LAB/week05/lab00_32bit_RCA/sim/xsim/lab00_32bit_RCA/lab00_32bit_RCA.sim/sim_1/behav/xsim
+# Command line: wbtcv.exe -mode batch -source C:/2024_CA_LAB/LAB/week05/lab00_32bit_RCA/sim/xsim/lab00_32bit_RCA/lab00_32bit_RCA.sim/sim_1/behav/xsim/xsim.dir/tb_ripple_carry_adder_behav/webtalk/xsim_webtalk.tcl -notrace
+# Log file: C:/2024_CA_LAB/LAB/week05/lab00_32bit_RCA/sim/xsim/lab00_32bit_RCA/lab00_32bit_RCA.sim/sim_1/behav/xsim/webtalk.log
+# Journal file: C:/2024_CA_LAB/LAB/week05/lab00_32bit_RCA/sim/xsim/lab00_32bit_RCA/lab00_32bit_RCA.sim/sim_1/behav/xsim\webtalk.jou
+#-----------------------------------------------------------
+source C:/2024_CA_LAB/LAB/week05/lab00_32bit_RCA/sim/xsim/lab00_32bit_RCA/lab00_32bit_RCA.sim/sim_1/behav/xsim/xsim.dir/tb_ripple_carry_adder_behav/webtalk/xsim_webtalk.tcl -notrace

@@ -1,0 +1,47 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/2024_CA_LAB/LAB/Final_Project_team1/hardware/src/rtl/ASYNC_RAM_DP.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ASYNC_RAM_DP
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/2024_CA_LAB/LAB/Final_Project_team1/hardware/src/rtl/EXE_MEM_pipe_reg.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module EXE_MEM_pipe_reg
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/2024_CA_LAB/LAB/Final_Project_team1/hardware/src/rtl/GPIO.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module GPIO
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/2024_CA_LAB/LAB/Final_Project_team1/hardware/src/rtl/ID_EXE_pipe_reg.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ID_EXE_pipe_reg
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/2024_CA_LAB/LAB/Final_Project_team1/hardware/src/rtl/IF_ID_pipe_reg.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module IF_ID_pipe_reg
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/2024_CA_LAB/LAB/Final_Project_team1/hardware/src/rtl/MEM_WB_pipe_reg.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MEM_WB_pipe_reg
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/2024_CA_LAB/LAB/Final_Project_team1/hardware/src/rtl/MIPS_System.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MIPS_System
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/2024_CA_LAB/LAB/Final_Project_team1/hardware/src/rtl/MIPS_cpu.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MIPS_cpu
+INFO: [VRFC 10-2458] undeclared symbol PCSrcD, assumed default net type wire [C:/2024_CA_LAB/LAB/Final_Project_team1/hardware/src/rtl/MIPS_cpu.v:89]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/2024_CA_LAB/LAB/Final_Project_team1/hardware/src/rtl/SEG7_LUT.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SEG7_LUT
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/2024_CA_LAB/LAB/Final_Project_team1/hardware/src/rtl/alu_32bit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module alu_32bit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/2024_CA_LAB/LAB/Final_Project_team1/hardware/src/rtl/clock_divider.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clock_divider
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/2024_CA_LAB/LAB/Final_Project_team1/hardware/src/rtl/control_unit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module control_unit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/2024_CA_LAB/LAB/Final_Project_team1/hardware/src/rtl/full_adder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module full_adder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/2024_CA_LAB/LAB/Final_Project_team1/hardware/src/rtl/hazard_unit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module hazard_unit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/2024_CA_LAB/LAB/Final_Project_team1/hardware/src/rtl/next_pc_logic_pipe.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module next_pc_logic_pipe
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/2024_CA_LAB/LAB/Final_Project_team1/hardware/src/rtl/reg_file_async.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module reg_file_async
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/2024_CA_LAB/LAB/Final_Project_team1/hardware/src/rtl/ripple_carry_adder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ripple_carry_adder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/2024_CA_LAB/LAB/Final_Project_team1/hardware/src/rtl/seg7driver.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module seg7driver
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/2024_CA_LAB/LAB/Final_Project_team1/hardware/src/rtl/sign_extension.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sign_extension
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/2024_CA_LAB/LAB/Final_Project_team1/hardware/src/rtl/write_back_address.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module write_back_address
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/2024_CA_LAB/LAB/Final_Project_team1/hardware/src/rtl/write_back_data.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module write_back_data
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/2024_CA_LAB/LAB/Final_Project_team1/hardware/testbench/peripheral_tests_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module peripheral_tests_tb
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/2024_CA_LAB/LAB/Final_Project_team1/hardware/sim/xsim_peripheral_seg_tb/MIPS_System_SEG_sim/MIPS_System_SEG_sim.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl

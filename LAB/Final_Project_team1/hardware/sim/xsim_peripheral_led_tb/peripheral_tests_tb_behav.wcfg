@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="peripheral_tests_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="peripheral_tests_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="166666fs"></ZoomStartTime>
+      <ZoomEndTime time="1166667fs"></ZoomEndTime>
+      <Cursor1Time time="411564fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="257"></NameColumnWidth>
+      <ValueColumnWidth column_width="179"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="8" />
+   <wvobject fp_name="/peripheral_tests_tb/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/peripheral_tests_tb/rst" type="logic">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/peripheral_tests_tb/hex" type="array">
+      <obj_property name="ElementShortName">hex[7:0]</obj_property>
+      <obj_property name="ObjectShortName">hex[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/peripheral_tests_tb/hex_digit" type="array">
+      <obj_property name="ElementShortName">hex_digit[3:0]</obj_property>
+      <obj_property name="ObjectShortName">hex_digit[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/peripheral_tests_tb/led" type="array">
+      <obj_property name="ElementShortName">led[9:0]</obj_property>
+      <obj_property name="ObjectShortName">led[9:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/peripheral_tests_tb/cycle" type="array">
+      <obj_property name="ElementShortName">cycle[31:0]</obj_property>
+      <obj_property name="ObjectShortName">cycle[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="group62" type="group">
+      <obj_property name="label">inst</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/peripheral_tests_tb/CPU/icpu/instF" type="array">
+         <obj_property name="ElementShortName">instF[31:0]</obj_property>
+         <obj_property name="ObjectShortName">instF[31:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/peripheral_tests_tb/CPU/icpu/instD" type="array">
+         <obj_property name="ElementShortName">instD[31:0]</obj_property>
+         <obj_property name="ObjectShortName">instD[31:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/peripheral_tests_tb/CPU/icpu/instE" type="array">
+         <obj_property name="ElementShortName">instE[31:0]</obj_property>
+         <obj_property name="ObjectShortName">instE[31:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/peripheral_tests_tb/CPU/icpu/instM" type="array">
+         <obj_property name="ElementShortName">instM[31:0]</obj_property>
+         <obj_property name="ObjectShortName">instM[31:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/peripheral_tests_tb/CPU/icpu/instW" type="array">
+         <obj_property name="ElementShortName">instW[31:0]</obj_property>
+         <obj_property name="ObjectShortName">instW[31:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group128" type="group">
+      <obj_property name="label">GPIO</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/peripheral_tests_tb/CPU/u_GPIO/DataIn" type="array">
+         <obj_property name="ElementShortName">DataIn[31:0]</obj_property>
+         <obj_property name="ObjectShortName">DataIn[31:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/peripheral_tests_tb/CPU/u_GPIO/Addr" type="array">
+         <obj_property name="ElementShortName">Addr[11:0]</obj_property>
+         <obj_property name="ObjectShortName">Addr[11:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/peripheral_tests_tb/CPU/u_GPIO/HEX0_R" type="array">
+         <obj_property name="ElementShortName">HEX0_R[31:0]</obj_property>
+         <obj_property name="ObjectShortName">HEX0_R[31:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/peripheral_tests_tb/CPU/u_GPIO/HEX1_R" type="array">
+         <obj_property name="ElementShortName">HEX1_R[31:0]</obj_property>
+         <obj_property name="ObjectShortName">HEX1_R[31:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/peripheral_tests_tb/CPU/u_GPIO/HEX2_R" type="array">
+         <obj_property name="ElementShortName">HEX2_R[31:0]</obj_property>
+         <obj_property name="ObjectShortName">HEX2_R[31:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/peripheral_tests_tb/CPU/u_GPIO/HEX3_R" type="array">
+         <obj_property name="ElementShortName">HEX3_R[31:0]</obj_property>
+         <obj_property name="ObjectShortName">HEX3_R[31:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/peripheral_tests_tb/CPU/u_GPIO/LED" type="array">
+         <obj_property name="ElementShortName">LED[9:0]</obj_property>
+         <obj_property name="ObjectShortName">LED[9:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/peripheral_tests_tb/CPU/u_GPIO/HEX" type="array">
+         <obj_property name="ElementShortName">HEX[7:0]</obj_property>
+         <obj_property name="ObjectShortName">HEX[7:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/peripheral_tests_tb/CPU/u_GPIO/HEX_DIGIT" type="array">
+         <obj_property name="ElementShortName">HEX_DIGIT[3:0]</obj_property>
+         <obj_property name="ObjectShortName">HEX_DIGIT[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/peripheral_tests_tb/CPU/u_GPIO/CS_N" type="logic">
+         <obj_property name="ElementShortName">CS_N</obj_property>
+         <obj_property name="ObjectShortName">CS_N</obj_property>
+      </wvobject>
+      <wvobject fp_name="/peripheral_tests_tb/CPU/u_GPIO/WR_N" type="logic">
+         <obj_property name="ElementShortName">WR_N</obj_property>
+         <obj_property name="ObjectShortName">WR_N</obj_property>
+      </wvobject>
+      <wvobject fp_name="/peripheral_tests_tb/CPU/u_GPIO/u_seg7driver/dataseg3" type="array">
+         <obj_property name="ElementShortName">dataseg3[7:0]</obj_property>
+         <obj_property name="ObjectShortName">dataseg3[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/peripheral_tests_tb/CPU/u_GPIO/u_seg7driver/dataseg2" type="array">
+         <obj_property name="ElementShortName">dataseg2[7:0]</obj_property>
+         <obj_property name="ObjectShortName">dataseg2[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/peripheral_tests_tb/CPU/u_GPIO/u_seg7driver/dataseg1" type="array">
+         <obj_property name="ElementShortName">dataseg1[7:0]</obj_property>
+         <obj_property name="ObjectShortName">dataseg1[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/peripheral_tests_tb/CPU/u_GPIO/u_seg7driver/dataseg0" type="array">
+         <obj_property name="ElementShortName">dataseg0[7:0]</obj_property>
+         <obj_property name="ObjectShortName">dataseg0[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/peripheral_tests_tb/CPU/u_GPIO/u_seg7driver/AN" type="array">
+         <obj_property name="ElementShortName">AN[3:0]</obj_property>
+         <obj_property name="ObjectShortName">AN[3:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/peripheral_tests_tb/CPU/u_GPIO/u_seg7driver/segment" type="array">
+         <obj_property name="ElementShortName">segment[7:0]</obj_property>
+         <obj_property name="ObjectShortName">segment[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/peripheral_tests_tb/CPU/u_GPIO/u_seg7driver/state" type="logic">
+         <obj_property name="ElementShortName">state</obj_property>
+         <obj_property name="ObjectShortName">state</obj_property>
+      </wvobject>
+   </wvobject>
+</wave_config>

@@ -1,0 +1,7 @@
+0.6
+2019.2
+Nov  6 2019
+21:57:16
+C:/2024_CA_LAB/LAB/week04/lab01_4x1mux/sim/xsim/mux4to1/mux4to1.sim/sim_1/behav/xsim/glbl.v,1573089660,verilog,,,,glbl,,,,,,,,
+C:/2024_CA_LAB/LAB/week04/lab01_4x1mux/src/mux4to1.v,1711696340,verilog,,C:/2024_CA_LAB/LAB/week04/lab01_4x1mux/testbench/tb_mux4to1.v,,mux4to1_case;mux4to1_conditional;mux4to1_if_else,,,,,,,,
+C:/2024_CA_LAB/LAB/week04/lab01_4x1mux/testbench/tb_mux4to1.v,1711699247,verilog,,,,tb_mux4to1,,,,,,,,

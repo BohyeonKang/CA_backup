@@ -1,0 +1,4 @@
+Vivado Simulator 2019.2
+Time resolution is 1 ps
+datapath test!!
+$stop called at time : 100 ns : File "C:/2024_CA_LAB/LAB/week05/lab02_datapath/testbench/testbench_modified.v" Line 55

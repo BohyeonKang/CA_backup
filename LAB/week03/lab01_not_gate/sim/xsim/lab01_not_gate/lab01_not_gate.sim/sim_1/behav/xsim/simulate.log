@@ -1,0 +1,7 @@
+Vivado Simulator 2019.2
+Time resolution is 1 ps
+                   0 ns: 0 - x
+               10000 ns: 1 - 1
+               20000 ns: 0 - 0
+               30000 ns: 1 - 1
+$stop called at time : 40 ns : File "C:/2024_CA_LAB/LAB/week03/lab01_not_gate/testbench/testbench.v" Line 29

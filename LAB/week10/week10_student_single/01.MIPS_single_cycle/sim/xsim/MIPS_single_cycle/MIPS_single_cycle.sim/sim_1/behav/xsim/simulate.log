@@ -1,0 +1,19 @@
+Vivado Simulator 2019.2
+Time resolution is 1 ps
+[         1] Test                       R-Type ADD passed!
+[         2] Test                       R-Type SUB passed!
+[         3] Test                       R-Type AND passed!
+[         4] Test                        R-Type OR passed!
+[         5] Test                       R-Type SLT passed!
+[         6] Test                     I-Type ADD 1 passed!
+[         7] Test                     I-Type ADD 2 passed!
+[         8] Test                     I-Type ADD 3 passed!
+[         9] Test                      I-Type LW 1 passed!
+[        10] Test                      I-Type LW 2 passed!
+[        11] Test                      I-Type SW 1 passed!
+[        12] Test                      I-Type SW 2 passed!
+[        13] Test               I-type BEQ Taken 1 passed!
+[        14] Test               I-type BEQ Taken 2 passed!
+[        15] Test             I-type BEQ Not Taken passed!
+All tests passed!
+$finish called at time : 2790 ns : File "C:/2024_CA_LAB/LAB/week10/week10_student_single/01.MIPS_single_cycle/testbench/cpu_tb.v" Line 523

@@ -1,0 +1,42 @@
+#-----------------------------------------------------------
+# Vivado v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Sun Apr  7 13:19:02 2024
+# Process ID: 1896
+# Current directory: C:/2024_CA_LAB/LAB/week05/lab02_datapath/sim/xsim/lab02_datapath
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent21012 C:\2024_CA_LAB\LAB\week05\lab02_datapath\sim\xsim\lab02_datapath\lab02_datapath.xpr
+# Log file: C:/2024_CA_LAB/LAB/week05/lab02_datapath/sim/xsim/lab02_datapath/vivado.log
+# Journal file: C:/2024_CA_LAB/LAB/week05/lab02_datapath/sim/xsim/lab02_datapath\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/2024_CA_LAB/LAB/week05/lab02_datapath/sim/xsim/lab02_datapath/lab02_datapath.xpr
+update_compile_order -fileset sources_1
+add_files -norecurse C:/2024_CA_LAB/LAB/week05/lab02_datapath/testbench/testbench_modified.v
+update_compile_order -fileset sources_1
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top tb_datapath_modified [current_fileset]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sources_1
+launch_simulation
+source tb_datapath.tcl
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top tb_datapath_modified [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+relaunch_sim
+launch_simulation
+launch_simulation
+close_sim
+launch_simulation
+source tb_datapath_modified.tcl
+restart
+run all
+relaunch_sim
+relaunch_sim
+relaunch_sim
+close_sim

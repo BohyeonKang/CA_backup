@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Thu Jun 13 16:05:22 2024
+# Process ID: 26576
+# Current directory: C:/2024_CA_LAB/LAB/Final_Project_team1/hardware/impl/01.GPIO_LED/vivado/fpga/MIPS_System_LED_impl/MIPS_System_LED_impl.runs/synth_1
+# Command line: vivado.exe -log MIPS_System.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source MIPS_System.tcl
+# Log file: C:/2024_CA_LAB/LAB/Final_Project_team1/hardware/impl/01.GPIO_LED/vivado/fpga/MIPS_System_LED_impl/MIPS_System_LED_impl.runs/synth_1/MIPS_System.vds
+# Journal file: C:/2024_CA_LAB/LAB/Final_Project_team1/hardware/impl/01.GPIO_LED/vivado/fpga/MIPS_System_LED_impl/MIPS_System_LED_impl.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source MIPS_System.tcl -notrace

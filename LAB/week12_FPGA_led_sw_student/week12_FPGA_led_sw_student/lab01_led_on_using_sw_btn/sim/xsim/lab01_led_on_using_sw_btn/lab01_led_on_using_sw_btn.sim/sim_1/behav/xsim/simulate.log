@@ -1,0 +1,3 @@
+Vivado Simulator 2019.2
+Time resolution is 1 ps
+$stop called at time : 150 ns : File "C:/2024_CA_LAB/LAB/week12_FPGA_led_sw_student/week12_FPGA_led_sw_student/lab01_led_on_using_sw_btn/testbench/testbench.v" Line 42
